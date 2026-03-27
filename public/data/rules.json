@@ -1,0 +1,20 @@
+{
+  "title": "Manaknechte Hausregeln",
+  "sections": [
+    {
+      "title": "I",
+      "subtitle": "Fair Play",
+      "text": "Unser gemeinsames Ziel ist es, dass wir alle <b>Spaß</b> am Spiel haben. Deshalb legen wir großen Wert auf <b>Fair Play</b>, sowohl beim Deckbau als auch am Tisch. \n\n Denkt bitte daran, dass jede Runde für alle Beteiligten <b>unterhaltsam</b> und fair bleiben soll. Strategien werden gekontert, Pläne gehen schief und genau das gehört dazu. Wichtig ist, dass wir das sportlich nehmen und die Stimmung darunter nicht leidet.\n\n  Am Ende geht es darum, gemeinsam eine gute Zeit zu haben und <b>respektvoll</b> miteinander umzugehen."
+    },
+    {
+      "title": "II",
+      "subtitle": "Budget",
+      "text": " Um sicherzustellen, dass alle Decks ein ähnliches Powerlevel haben, haben wir uns auf einen maximalen Deckwert von 100 \u0080 festgelegt (inklusive 10% Preisschwankungen). Dieser Wert basiert auf den in Deckstats angezeigten Preisen, die sich nach den Angeboten auf Cardmarket richten, unabhängig von der Edition der Karten.\n        Damit wir dies leicht überprüfen können, sollte jeder ManaKnecht seine Decks auf Deckstats erstellen und sie auf öffentlich verfügbar machen. So können wir gemeinsam ein ausgewogenes und faires Spielerlebnis genießen.\n"
+    },
+    {
+      "title": "III",
+      "subtitle": "Gebannte Commander und Mechaniken",
+      "text": "Zusätzlich zu der offiziellen Bannliste haben sich die ManaKnechte dazu entschieden folgende\n        Karten und Mechaniken aus den Spieleabenden zu bannen. \n Gamechanger, Infitity Loops, Instant Win Karten, Toxic als win mechanik"
+    }
+  ]
+}
