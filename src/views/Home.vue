@@ -1,20 +1,69 @@
 <script setup lang="ts">
 import logo from "../assets/logo.png";
-import { BACKGROUNDS } from "@/config";
+import {BACKGROUNDS} from "@/config";
+import { ref, onMounted } from "vue";
 
 const randomBg =
     BACKGROUNDS[Math.floor(Math.random() * BACKGROUNDS.length)];
-</script>
 
+
+
+
+type Spark = {
+  id: number;
+  style: Record<string, string>;
+};
+
+const sparks = ref<Spark[]>([]);
+
+function createSpark(id: number): Spark {
+  const left = Math.random() * 100;
+  const size = Math.random() * 4 + 2; // 2–6px
+  const duration = Math.random() * 6 + 10;
+  const delay = Math.random() * 5;
+
+  const drift = (Math.random() - 0.5) * 120;
+
+  return {
+    id,
+    style: {
+      left: `${left}%`,
+      width: `${size}px`,
+      height: `${size}px`,
+      animationDuration: `${duration}s`,
+      animationDelay: `${delay}s`,
+      "--drift": `${drift}px`,
+    },
+  };
+}
+
+onMounted(() => {
+  sparks.value = Array.from({ length: 15 }, (_, i) => createSpark(i));
+});
+
+
+
+
+</script>
 
 
 <template>
   <div class="home" :style="{ backgroundImage: `url(${randomBg})` }">
     <div class="overlay"></div>
 
+    <!-- 🔥 SPARKS -->
+    <div class="sparks">
+      <span
+          v-for="spark in sparks"
+          :key="spark.id"
+          class="spark"
+          :style="spark.style"
+      />
+    </div>
+
     <div class="content">
 
-      <img class="logo" :src="logo" alt="Logo" width="250px" />
+      <img class="logo" :src="logo" alt="Logo" width="250px"/>
 
       <nav class="nav">
         <router-link to="/hausregeln">Hausregeln</router-link>
@@ -42,14 +91,12 @@ const randomBg =
 }
 
 
-
 .overlay {
   position: absolute;
   inset: 0;
 
-  background:
-      radial-gradient(circle at center, rgba(189,219,227, 0.2), rgba(0,0,0,0.8)),
-      linear-gradient(180deg, rgba(82,144,155, 0.4), rgba(0,0,0,0.9));
+  background: radial-gradient(circle at center, rgba(189, 219, 227, 0.2), rgba(0, 0, 0, 0.8)),
+  linear-gradient(180deg, rgba(82, 144, 155, 0.4), rgba(0, 0, 0, 0.9));
 }
 
 .content {
@@ -81,8 +128,6 @@ const randomBg =
     transform: translateY(0);
   }
 }
-
-
 
 
 .nav {
@@ -131,13 +176,76 @@ const randomBg =
 }
 
 
-
-
-
-
 .nav a:hover {
-  background: rgba(255,255,255,0.15);
+  background: rgba(255, 255, 255, 0.15);
   transform: translateY(-2px);
+}
+
+
+.sparks {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  opacity: 0.3;
+}
+
+.spark {
+  position: absolute;
+  bottom: -20px;
+
+
+  border-radius: 50%;
+
+  background: radial-gradient(
+      circle,
+      rgba(255, 200, 120, 1) 0%,
+      rgba(255, 120, 50, 0.8) 40%,
+      rgba(255, 80, 20, 0.2) 70%,
+      transparent 100%
+  );
+
+  box-shadow:
+      0 0 6px rgba(255, 150, 50, 0.8),
+      0 0 12px rgba(255, 80, 20, 0.6);
+
+  animation:
+      sparkFloat linear infinite,
+      flicker 0.3s infinite alternate;
+
+}
+
+@keyframes sparkFloat {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  25% {
+    transform: translate(calc(var(--drift) * 0.3), -25vh) scale(1.05);
+  }
+
+  50% {
+    transform: translate(calc(var(--drift) * -0.4), -55vh) scale(1.1);
+  }
+
+  75% {
+    transform: translate(calc(var(--drift) * 0.2), -85vh) scale(0.9);
+  }
+
+  100% {
+    transform: translate(calc(var(--drift) * -0.2), -120vh) scale(0.6);
+    opacity: 0;
+  }
+}
+
+@keyframes flicker {
+  from { opacity: 0.8; }
+  to { opacity: 1; }
 }
 
 </style>
