@@ -140,18 +140,4 @@ const randomBg =
   transform: translateY(-2px);
 }
 
-.home {
-  //animation: bgZoom 20s ease infinite alternate;
-}
-
-@keyframes bgZoom {
-  from {
-    background-size: 100%;
-  }
-  to {
-    background-size: 110%;
-  }
-}
-
-
 </style>
