@@ -30,7 +30,7 @@ const randomBg =
 <style lang="css">
 
 .home {
-  height: 100vh;
+  height: 100dvh;
   position: relative;
 
   background-size: cover;
