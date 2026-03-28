@@ -83,5 +83,6 @@ export const GAMECHANGER_CARDS = [
   "Mox Diamond",
   "Panoptic Mirror",
   "The One Ring",
-  "The Tabernacle at Pendrell Vale"
+  "The Tabernacle at Pendrell Vale",
+  "Farewell"
 ];
