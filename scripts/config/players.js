@@ -1,5 +1,17 @@
 export const players = [
+
   {
+    name: "Andreas",
+    decks: [
+      "lwdCNMy6SUyWPu_Ltsx3Vg",
+      "fin6yuJd2UWJl_sJDkRPFQ",
+      "mK7xkwBnjE-qLVBh7PyeqQ",
+
+    ],
+  },
+
+
+    {
     name: "Daniel",
     decks: [
       "PhxjqDZjB0u5WWb44d0oEQ",
@@ -8,6 +20,34 @@ export const players = [
       "KY9RLvIcL0K6VoLH4DjipQ",
       "qa822KLUZ0GXUt39RoeVdw",
       "q1BbXHMC_UGenr5nLvMPOA",
+    ],
+  },
+
+
+  {
+    name: "Felix L.",
+    decks: [
+      "_CBTetOgykGQUvo1acSW9A",
+      "gYmherUtRkewhSjYJeFrMg",
+      "V0md0L1gEkWdzuD_CY_Q8A",
+      "jqq7ENSBFEa0sHPH6fRktg",
+
+    ],
+  },
+
+  {
+    name: "Felix W.",
+    decks: [
+      "4Tc-tb5Gwke8uOMNqIFF-Q",
+      "OH2f02J-_k-ofb-9zKPFcQ",
+    ],
+  },
+
+  {
+    name: "Filip",
+    decks: [
+      "yq7RnuMHXEGw0UEpP4b2KQ",
+      "w8Au6dsrIkihy6HgIj6daQ",
     ],
   },
 
@@ -37,6 +77,26 @@ export const players = [
     ],
   },
 
+  {
+    name: "Patrick",
+    decks: [
+      "hK6BMRUSBU-TzJO7lw6Ejg",
+      "99POuDWTrEuYHVLm-yqvcg",
+      "YaMMVbwbPkiaaqIIutovbA",
+      "e8fmHokb40CUb3tWdM8Y4Q",
+      "z2izJUE5d0SKoR1eWlT7ug",
+    ],
+  },
+
+  {
+    name: "Paul",
+    decks: [
+      "9GRwEmToVk-9NvtgHH6bHA",
+      "n3fH7WOIHkG8yRR4uzgO2g",
+      "jOLBIf9_YEeEcBgZNvgOHQ",
+    ],
+  },
+
 
 
   {
@@ -55,32 +115,24 @@ export const players = [
     ],
   },
 
-
   {
-    name: "Felix L.",
+    name: "Sebastian",
     decks: [
-      "_CBTetOgykGQUvo1acSW9A",
-      "gYmherUtRkewhSjYJeFrMg",
-      "V0md0L1gEkWdzuD_CY_Q8A",
-
+      "SwEO0H2DtUyn9KxHYNIF1w",
+      "ygiDW1aIfk-QEmS3LD_Eww",
     ],
   },
 
-  {
-    name: "Andreas",
-    decks: [
-      "lwdCNMy6SUyWPu_Ltsx3Vg",
-      "fin6yuJd2UWJl_sJDkRPFQ",
-      "mK7xkwBnjE-qLVBh7PyeqQ",
 
+  {
+    name: "Tony",
+    decks: [
+      "DGsunu-rj0izPpBAJ5Uu5g",
+      "Pr8eRxEw2kGMPk8Dqcw5ww",
     ],
   },
 
-  {
-    name: "Felix W.",
-    decks: [
-      "4Tc-tb5Gwke8uOMNqIFF-Q",
-      "OH2f02J-_k-ofb-9zKPFcQ",
-    ],
-  },
+
+
+
 ];

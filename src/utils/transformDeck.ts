@@ -2,12 +2,12 @@ import { GAMECHANGER_CARDS } from "../config";
 
 
 export function transformDeck(deck: any) {
-    
-    
 
 
-    
-    
+
+
+
+
   const commanderEntry = Object.values(deck.commanders)[0] as any
   const commanderCard = commanderEntry?.card
 
@@ -19,7 +19,7 @@ export function transformDeck(deck: any) {
 Object.values(entries).forEach((entry: any) => {
   const card = entry.card
   if (!card) return
-  
+
 
 
   // 🔥 Instant Win Detection (HIER!)
@@ -50,9 +50,9 @@ if (GAMECHANGER_CARDS.includes(card.name)) {
   const prices = card.prices ?? {}
 
   const unitPrice =
-    entry.isFoil && prices.eur_foil != null
-      ? prices.eur_foil
-      : prices.eur ?? 0
+      entry.isFoil
+          ? prices.eur_foil ?? prices.eur ?? 0
+          : prices.eur ?? prices.eur_foil ?? 0
 
   totalPrice += unitPrice * (entry.quantity ?? 1)
 })
