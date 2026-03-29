@@ -237,12 +237,7 @@ color: #fff;
 
 
 
-.player-name {
-  cursor: pointer;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
+
 
 .arrow {
   font-size: 12px;
@@ -280,26 +275,49 @@ color: #fff;
   }
 }
 
-.player-section {
-  margin-bottom: 40px;
-}
 
 .player-section h2 {
   text-transform: none;
 }
 
-.player-name {
-  font-size: 22px;
-  font-weight: bold;
-  color: #fff;
-  margin-bottom: 16px;
-  padding-left: 6px;
+
+.player-section {
+  border-bottom: 1px solid #555;
+
+  .player-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    text-align: left;
+    position: relative;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    .count {
+      font-size: 12px;
+      opacity: 0.6;
+    }
+
+    .arrow {
+      position: absolute;
+      right: 0px;
+    }
+  }
+
+  .player-name__name {
+
+  }
 }
 
-.count {
-  font-size: 14px;
-  opacity: 0.6;
-  margin-left: 8px;
+.player-section:nth-child(odd) {
+  /* background-color: rgba(255,255,255,0.08); */
 }
 
 .status-badge {

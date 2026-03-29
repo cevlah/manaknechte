@@ -113,10 +113,15 @@ for (const player of players) {
   });
 }
 
-fs.writeFileSync(
-  "public/data/decks.json",
-  JSON.stringify(result, null, 2)
-);
+  const output = {
+    updatedAt: new Date().toISOString(),
+    players: result,
+  };
+
+  fs.writeFileSync(
+      "public/data/decks.json",
+      JSON.stringify(output, null, 2)
+  );
 
   console.log("🎉 Alle Decks gespeichert!");
 

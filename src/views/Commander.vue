@@ -12,6 +12,7 @@ const filterColors = ref<string[]>([]);
 const players = ref<any[]>([]);
 const openPlayers = ref<string[]>([]);
 const showColorDropdown = ref(false);
+const lastUpdated = ref<string | null>(null);
 
 const COLORS = [
   { key: "W", label: "Weiß" },
@@ -89,6 +90,18 @@ function getPlayerStatus(player: any) {
   };
 }
 
+function formatDate(dateString: string) {
+  const date = new Date(dateString);
+
+  return date.toLocaleString("de-DE", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
 onMounted(() => {
   document.addEventListener("click", handleClickOutside);
 });
@@ -102,7 +115,8 @@ onMounted(async () => {
   const res = await fetch("/data/decks.json");
   const rawData = await res.json();
 
-  players.value = rawData.map(transformPlayer);
+  lastUpdated.value = rawData.updatedAt;
+  players.value = (rawData.players || []).map(transformPlayer);
 });
 </script>
 
@@ -119,6 +133,11 @@ onMounted(async () => {
 
 
   <div class="container">
+
+    <div class="last-updated" v-if="lastUpdated">
+      Letztes Update: {{ formatDate(lastUpdated) }}
+    </div>
+
 
     <div class="filters">
 
@@ -176,8 +195,8 @@ onMounted(async () => {
           class="player-name"
           @click="togglePlayer(player.name)"
       >
-        {{ player.name }}
-        <span class="count">({{ player.decks.length }} Decks)</span>
+        <span class="player-name__name">{{ player.name }} <span class="count">({{ player.decks.length }} Decks)</span></span>
+
 
         <!-- 👇 STATUS -->
         <span
@@ -298,6 +317,14 @@ onMounted(async () => {
   background: rgba(255,255,255,0.08);
   color: white;
   cursor: pointer;
+}
+
+
+.last-updated {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: -10px;
+  margin-bottom: 15px;
 }
 
 </style>
