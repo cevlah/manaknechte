@@ -98,6 +98,15 @@ export const players = [
   },
 
 
+  {
+    name: "Ramon",
+    decks: [
+      "2clc_v51cEKNIqOdn8bOtA",
+      "OAfHFAdzvU-9ooXLt-JgsA",
+    ],
+  },
+
+
 
   {
     name: "Robert",
