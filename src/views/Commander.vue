@@ -496,6 +496,7 @@ onMounted(async () => {
   border-radius: 8px;
   background: rgba(255,255,255,0.08);
   cursor: pointer;
+  font-size: 12px;
 }
 
 </style>

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-31T17:10:47.541Z",
+  "updatedAt": "2026-03-31T19:01:39.658Z",
   "players": [
     {
       "name": "Andreas",
@@ -15849,6 +15849,23 @@
                 }
               }
             },
+            "Swamp": {
+              "quantity": 2,
+              "isFoil": false,
+              "card": {
+                "name": "Swamp",
+                "type_line": "Basic Land — Swamp",
+                "oracle_text": "({T}: Add {B}.)",
+                "color_identity": [
+                  "B"
+                ],
+                "scryfall_id": "296d546a-7481-4cb9-9170-59402592507b",
+                "prices": {
+                  "eur": 0.02,
+                  "eur_foil": 0.69
+                }
+              }
+            },
             "Sram's Expertise": {
               "quantity": 1,
               "isFoil": false,
@@ -16336,6 +16353,24 @@
                 }
               }
             },
+            "Caesar, Legion's Emperor": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Caesar, Legion's Emperor",
+                "type_line": "Legendary Creature — Human Soldier",
+                "oracle_text": "Whenever you attack, you may sacrifice another creature. When you do, choose two —\n• Create two 1/1 red and white Soldier creature tokens with haste that are tapped and attacking.\n• You draw a card and you lose 1 life.\n• Caesar deals damage equal to the number of creature tokens you control to target opponent.",
+                "color_identity": [
+                  "B",
+                  "R",
+                  "W"
+                ],
+                "scryfall_id": "246a7176-98bc-4f54-aa61-38747420f178",
+                "prices": {
+                  "eur_foil": 4.29
+                }
+              }
+            },
             "Bitter Triumph": {
               "quantity": 1,
               "isFoil": false,
@@ -16535,6 +16570,22 @@
                 "scryfall_id": "5d7fcd03-fffe-467a-88a5-e583e32afd7a",
                 "prices": {
                   "eur": 0.12
+                }
+              }
+            },
+            "Impact Tremors": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Impact Tremors",
+                "type_line": "Enchantment",
+                "oracle_text": "Whenever a creature you control enters, this enchantment deals 1 damage to each opponent.",
+                "color_identity": [
+                  "R"
+                ],
+                "scryfall_id": "d0b7cecf-b51b-4d30-b7e9-cd7976271e07",
+                "prices": {
+                  "eur_foil": 1.8
                 }
               }
             },
@@ -16988,6 +17039,23 @@
                 }
               }
             },
+            "Voice of Victory": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Voice of Victory",
+                "type_line": "Creature — Human Bard",
+                "oracle_text": "Mobilize 2 (Whenever this creature attacks, create two tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)\nYour opponents can't cast spells during your turn.",
+                "color_identity": [
+                  "W"
+                ],
+                "scryfall_id": "4f67aa6c-6dce-47f7-9a8e-b8970b3c121e",
+                "prices": {
+                  "eur": 17.16,
+                  "eur_foil": 16.7
+                }
+              }
+            },
             "Pitiless Plunderer": {
               "quantity": 1,
               "isFoil": false,
@@ -17121,6 +17189,21 @@
                 }
               }
             },
+            "Arcane Signet": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Arcane Signet",
+                "type_line": "Artifact",
+                "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+                "color_identity": [],
+                "scryfall_id": "049ca0ff-0ca4-44f7-b144-731cf453afa9",
+                "prices": {
+                  "eur": 0.46,
+                  "eur_foil": 0.32
+                }
+              }
+            },
             "Dragonskull Summit": {
               "quantity": 1,
               "isFoil": false,
@@ -17154,89 +17237,6 @@
                 "prices": {
                   "eur": 0.18,
                   "eur_foil": 0.53
-                }
-              }
-            },
-            "Swamp": {
-              "quantity": 2,
-              "isFoil": false,
-              "card": {
-                "name": "Swamp",
-                "type_line": "Basic Land — Swamp",
-                "oracle_text": "({T}: Add {B}.)",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "296d546a-7481-4cb9-9170-59402592507b",
-                "prices": {
-                  "eur": 0.02,
-                  "eur_foil": 0.69
-                }
-              }
-            },
-            "Caesar, Legion's Emperor": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Caesar, Legion's Emperor",
-                "type_line": "Legendary Creature — Human Soldier",
-                "oracle_text": "Whenever you attack, you may sacrifice another creature. When you do, choose two —\n• Create two 1/1 red and white Soldier creature tokens with haste that are tapped and attacking.\n• You draw a card and you lose 1 life.\n• Caesar deals damage equal to the number of creature tokens you control to target opponent.",
-                "color_identity": [
-                  "B",
-                  "R",
-                  "W"
-                ],
-                "scryfall_id": "246a7176-98bc-4f54-aa61-38747420f178",
-                "prices": {
-                  "eur_foil": 4.29
-                }
-              }
-            },
-            "Impact Tremors": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Impact Tremors",
-                "type_line": "Enchantment",
-                "oracle_text": "Whenever a creature you control enters, this enchantment deals 1 damage to each opponent.",
-                "color_identity": [
-                  "R"
-                ],
-                "scryfall_id": "d0b7cecf-b51b-4d30-b7e9-cd7976271e07",
-                "prices": {
-                  "eur_foil": 1.8
-                }
-              }
-            },
-            "Voice of Victory": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Voice of Victory",
-                "type_line": "Creature — Human Bard",
-                "oracle_text": "Mobilize 2 (Whenever this creature attacks, create two tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)\nYour opponents can't cast spells during your turn.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "4f67aa6c-6dce-47f7-9a8e-b8970b3c121e",
-                "prices": {
-                  "eur": 17.16,
-                  "eur_foil": 16.7
-                }
-              }
-            },
-            "Arcane Signet": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Arcane Signet",
-                "type_line": "Artifact",
-                "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
-                "color_identity": [],
-                "scryfall_id": "049ca0ff-0ca4-44f7-b144-731cf453afa9",
-                "prices": {
-                  "eur": 0.46,
-                  "eur_foil": 0.32
                 }
               }
             }
@@ -27404,23 +27404,6 @@
                 }
               }
             },
-            "Forest": {
-              "quantity": 7,
-              "isFoil": false,
-              "card": {
-                "name": "Forest",
-                "type_line": "Basic Land — Forest",
-                "oracle_text": "({T}: Add {G}.)",
-                "color_identity": [
-                  "G"
-                ],
-                "scryfall_id": "a4df3e89-610c-4f42-a93a-e694342307cc",
-                "prices": {
-                  "eur": 0.02,
-                  "eur_foil": 0.12
-                }
-              }
-            },
             "Lord of Atlantis": {
               "quantity": 1,
               "isFoil": false,
@@ -27960,23 +27943,6 @@
                 }
               }
             },
-            "Kindred Discovery": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Kindred Discovery",
-                "type_line": "Enchantment",
-                "oracle_text": "As this enchantment enters, choose a creature type.\nWhenever a creature you control of the chosen type enters or attacks, draw a card.",
-                "color_identity": [
-                  "U"
-                ],
-                "scryfall_id": "5a5462e9-c602-4431-a845-f7c6cafbc3cf",
-                "prices": {
-                  "eur": 10.08,
-                  "eur_foil": 10.01
-                }
-              }
-            },
             "Spell Pierce": {
               "quantity": 1,
               "isFoil": false,
@@ -28357,23 +28323,6 @@
                 }
               }
             },
-            "Branching Evolution": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Branching Evolution",
-                "type_line": "Enchantment",
-                "oracle_text": "If one or more +1/+1 counters would be put on a creature you control, twice that many +1/+1 counters are put on that creature instead.",
-                "color_identity": [
-                  "G"
-                ],
-                "scryfall_id": "f4b2c132-0e57-4273-aa30-e78870647dc7",
-                "prices": {
-                  "eur": 3.99,
-                  "eur_foil": 3.38
-                }
-              }
-            },
             "Command Tower": {
               "quantity": 1,
               "isFoil": false,
@@ -28554,23 +28503,6 @@
                 }
               }
             },
-            "Dramatic Reversal": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Dramatic Reversal",
-                "type_line": "Instant",
-                "oracle_text": "Untap all nonland permanents you control.",
-                "color_identity": [
-                  "U"
-                ],
-                "scryfall_id": "2ad14406-4504-4951-83f0-82c298964d6c",
-                "prices": {
-                  "eur": 0.5,
-                  "eur_foil": 0.45
-                }
-              }
-            },
             "Realmwalker": {
               "quantity": 1,
               "isFoil": false,
@@ -28665,6 +28597,74 @@
                 "prices": {
                   "eur": 0.14,
                   "eur_foil": 0.2
+                }
+              }
+            },
+            "Forest": {
+              "quantity": 7,
+              "isFoil": false,
+              "card": {
+                "name": "Forest",
+                "type_line": "Basic Land — Forest",
+                "oracle_text": "({T}: Add {G}.)",
+                "color_identity": [
+                  "G"
+                ],
+                "scryfall_id": "a4df3e89-610c-4f42-a93a-e694342307cc",
+                "prices": {
+                  "eur": 0.02,
+                  "eur_foil": 0.12
+                }
+              }
+            },
+            "Kindred Discovery": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Kindred Discovery",
+                "type_line": "Enchantment",
+                "oracle_text": "As this enchantment enters, choose a creature type.\nWhenever a creature you control of the chosen type enters or attacks, draw a card.",
+                "color_identity": [
+                  "U"
+                ],
+                "scryfall_id": "5a5462e9-c602-4431-a845-f7c6cafbc3cf",
+                "prices": {
+                  "eur": 10.08,
+                  "eur_foil": 10.01
+                }
+              }
+            },
+            "Branching Evolution": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Branching Evolution",
+                "type_line": "Enchantment",
+                "oracle_text": "If one or more +1/+1 counters would be put on a creature you control, twice that many +1/+1 counters are put on that creature instead.",
+                "color_identity": [
+                  "G"
+                ],
+                "scryfall_id": "f4b2c132-0e57-4273-aa30-e78870647dc7",
+                "prices": {
+                  "eur": 3.99,
+                  "eur_foil": 3.38
+                }
+              }
+            },
+            "Dramatic Reversal": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Dramatic Reversal",
+                "type_line": "Instant",
+                "oracle_text": "Untap all nonland permanents you control.",
+                "color_identity": [
+                  "U"
+                ],
+                "scryfall_id": "2ad14406-4504-4951-83f0-82c298964d6c",
+                "prices": {
+                  "eur": 0.5,
+                  "eur_foil": 0.45
                 }
               }
             }
@@ -33583,54 +33583,6 @@
                 }
               }
             },
-            "Forest": {
-              "quantity": 5,
-              "isFoil": false,
-              "card": {
-                "name": "Forest",
-                "type_line": "Basic Land — Forest",
-                "oracle_text": "({T}: Add {G}.)",
-                "color_identity": [
-                  "G"
-                ],
-                "scryfall_id": "7df94d2c-7c1f-4461-8f70-c2bd4ebb95be",
-                "prices": {
-                  "eur": 0.13
-                }
-              }
-            },
-            "Island": {
-              "quantity": 4,
-              "isFoil": false,
-              "card": {
-                "name": "Island",
-                "type_line": "Basic Land — Island",
-                "oracle_text": "({T}: Add {U}.)",
-                "color_identity": [
-                  "U"
-                ],
-                "scryfall_id": "0e443748-edf1-4499-9507-3649dd57ee95",
-                "prices": {
-                  "eur": 0.02
-                }
-              }
-            },
-            "Mountain": {
-              "quantity": 7,
-              "isFoil": false,
-              "card": {
-                "name": "Mountain",
-                "type_line": "Basic Land — Mountain",
-                "oracle_text": "({T}: Add {R}.)",
-                "color_identity": [
-                  "R"
-                ],
-                "scryfall_id": "a3a4da7d-a703-4f91-9ef7-ce269c0b63fb",
-                "prices": {
-                  "eur": 0.08
-                }
-              }
-            },
             "Marang River Regent // Coil and Catch": {
               "quantity": 1,
               "isFoil": false,
@@ -34058,6 +34010,54 @@
                 "scryfall_id": "da9484bd-2cf5-4490-a52b-066de5520afd",
                 "prices": {
                   "eur": 1.12
+                }
+              }
+            },
+            "Forest": {
+              "quantity": 5,
+              "isFoil": false,
+              "card": {
+                "name": "Forest",
+                "type_line": "Basic Land — Forest",
+                "oracle_text": "({T}: Add {G}.)",
+                "color_identity": [
+                  "G"
+                ],
+                "scryfall_id": "7df94d2c-7c1f-4461-8f70-c2bd4ebb95be",
+                "prices": {
+                  "eur": 0.13
+                }
+              }
+            },
+            "Island": {
+              "quantity": 4,
+              "isFoil": false,
+              "card": {
+                "name": "Island",
+                "type_line": "Basic Land — Island",
+                "oracle_text": "({T}: Add {U}.)",
+                "color_identity": [
+                  "U"
+                ],
+                "scryfall_id": "0e443748-edf1-4499-9507-3649dd57ee95",
+                "prices": {
+                  "eur": 0.02
+                }
+              }
+            },
+            "Mountain": {
+              "quantity": 7,
+              "isFoil": false,
+              "card": {
+                "name": "Mountain",
+                "type_line": "Basic Land — Mountain",
+                "oracle_text": "({T}: Add {R}.)",
+                "color_identity": [
+                  "R"
+                ],
+                "scryfall_id": "a3a4da7d-a703-4f91-9ef7-ce269c0b63fb",
+                "prices": {
+                  "eur": 0.08
                 }
               }
             }
@@ -41340,7 +41340,7 @@
       "decks": [
         {
           "id": "hK6BMRUSBU-TzJO7lw6Ejg",
-          "name": "☀️Life is schööön☀️",
+          "name": "BEARBEITUNG ☀️Life is schööön☀️",
           "commanders": {
             "Heliod, Sun-Crowned": {
               "quantity": 1,
@@ -47779,6 +47779,23 @@
                 }
               }
             },
+            "Maximum Carnage": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Maximum Carnage",
+                "type_line": "Enchantment — Saga",
+                "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Until your next turn, each creature attacks each combat if able and attacks a player other than you if able.\nII — Add {R}{R}{R}.\nIII — This Saga deals 5 damage to each opponent.",
+                "color_identity": [
+                  "R"
+                ],
+                "scryfall_id": "7d72d867-6ed2-4900-a8ae-9d86f581ce32",
+                "prices": {
+                  "eur": 0.35,
+                  "eur_foil": 0.53
+                }
+              }
+            },
             "Negate": {
               "quantity": 1,
               "isFoil": false,
@@ -47812,23 +47829,6 @@
                 }
               }
             },
-            "Maximum Carnage": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Maximum Carnage",
-                "type_line": "Enchantment — Saga",
-                "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Until your next turn, each creature attacks each combat if able and attacks a player other than you if able.\nII — Add {R}{R}{R}.\nIII — This Saga deals 5 damage to each opponent.",
-                "color_identity": [
-                  "R"
-                ],
-                "scryfall_id": "7d72d867-6ed2-4900-a8ae-9d86f581ce32",
-                "prices": {
-                  "eur": 0.35,
-                  "eur_foil": 0.53
-                }
-              }
-            },
             "Arcane Signet": {
               "quantity": 1,
               "isFoil": true,
@@ -47841,6 +47841,81 @@
                 "prices": {
                   "eur": 0.46,
                   "eur_foil": 0.32
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "1R11ek7Tu0m0XqyYi7jOHA",
+          "name": "IDEEN",
+          "commanders": {},
+          "mainboard": {
+            "Meren of Clan Nel Toth": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Meren of Clan Nel Toth",
+                "type_line": "Legendary Creature — Human Shaman",
+                "oracle_text": "Whenever another creature you control dies, you get an experience counter.\nAt the beginning of your end step, choose target creature card in your graveyard. If that card's mana value is less than or equal to the number of experience counters you have, return it to the battlefield. Otherwise, put it into your hand.",
+                "color_identity": [
+                  "B",
+                  "G"
+                ],
+                "scryfall_id": "91190972-7c9d-4a16-b7b8-0fcf3dbcebd5",
+                "prices": {
+                  "eur_foil": 40.19
+                }
+              }
+            },
+            "Killian, Decisive Mentor": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Killian, Decisive Mentor",
+                "type_line": "Legendary Creature — Human Warlock",
+                "oracle_text": "Whenever an enchantment you control enters, tap up to one target creature and goad it. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)\nWhenever one or more creatures that are enchanted by an Aura you control attack, draw a card.",
+                "color_identity": [
+                  "B",
+                  "W"
+                ],
+                "scryfall_id": "76b6c35a-bb92-4ad3-8f85-88b9bafc6266",
+                "prices": {}
+              }
+            },
+            "Teysa Karlov": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Teysa Karlov",
+                "type_line": "Legendary Creature — Human Advisor",
+                "oracle_text": "If a creature dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.\nCreature tokens you control have vigilance and lifelink.",
+                "color_identity": [
+                  "B",
+                  "W"
+                ],
+                "scryfall_id": "4a80fbb2-4b3a-46fc-b105-09e512bc414a",
+                "prices": {
+                  "eur": 37.97,
+                  "eur_foil": 40.57
+                }
+              }
+            },
+            "Eriette of the Charmed Apple": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Eriette of the Charmed Apple",
+                "type_line": "Legendary Creature — Human Warlock",
+                "oracle_text": "Each creature that's enchanted by an Aura you control can't attack you or planeswalkers you control.\nAt the beginning of your end step, each opponent loses X life and you gain X life, where X is the number of Auras you control.",
+                "color_identity": [
+                  "B",
+                  "W"
+                ],
+                "scryfall_id": "487a2cc0-ddbf-46b9-90ed-9455347724d5",
+                "prices": {
+                  "eur": 2.15,
+                  "eur_foil": 3.71
                 }
               }
             }
