@@ -8,6 +8,15 @@ const dropdownRef = ref<HTMLElement | null>(null);
 const filterLegal = ref<"all" | "legal" | "illegal">("all");
 const filterPlayer = ref<string>("all");
 const filterColors = ref<string[]>([]);
+const filterIdeasOnly = ref(false);
+
+const hasActiveFilters = computed(() => {
+  return (
+      filterLegal.value !== "all" ||
+      filterPlayer.value !== "all" ||
+      filterColors.value.length > 0
+  );
+});
 
 const players = ref<any[]>([]);
 const openPlayers = ref<string[]>([]);
@@ -47,9 +56,8 @@ const filteredPlayers = computed(() => {
       .map((player) => {
 
         const activeDecks = player.decks.filter((deck: any) => {
-          if (deck.isPlanning) return false; // 🔥 raus hier
+          if (deck.isIdeasDeck) return false;
 
-          // dein bestehender Filter
           if (filterLegal.value === "legal" && !isDeckLegal(deck)) return false;
           if (filterLegal.value === "illegal" && isDeckLegal(deck)) return false;
 
@@ -65,15 +73,29 @@ const filteredPlayers = computed(() => {
           return true;
         });
 
-        const planningDecks = player.decks.filter((deck: any) => deck.isPlanning);
+        const ideasDeck = player.decks.find((deck: any) => deck.isIdeasDeck);
 
         return {
           ...player,
-          decks: activeDecks,
-          planningDecks,
+          decks: filterIdeasOnly.value ? [] : activeDecks,
+          ideasDeck,
         };
       })
-      .filter(player => player.decks.length > 0 || player.planningDecks.length > 0);
+
+      .filter((player) => {
+        // 🧠 IDEEN ONLY MODE
+        if (filterIdeasOnly.value) {
+          return !!player.ideasDeck;
+        }
+
+        // 🧠 NORMAL MODE (mit Filtern)
+        if (hasActiveFilters.value) {
+          return player.decks.length > 0; // ❗ KEINE IDEEN hier
+        }
+
+        // 🧠 DEFAULT MODE (ohne Filter)
+        return player.decks.length > 0 || player.ideasDeck;
+      });
 });
 
 function getPlayerStatus(player: any) {
@@ -187,6 +209,11 @@ onMounted(async () => {
 
       </div>
 
+      <label class="ideas-toggle">
+        <input type="checkbox" v-model="filterIdeasOnly" />
+        Nur Deck Ideen anzeigen
+      </label>
+
     </div>
 
 
@@ -197,7 +224,13 @@ onMounted(async () => {
           class="player-name"
           @click="togglePlayer(player.name)"
       >
-        <span class="player-name__name">{{ player.name }} <span class="count">({{ player.decks.length }} Decks)</span></span>
+        <span class="player-name__name">{{ player.name }} <span class="count">
+  {{
+            filterIdeasOnly
+                ? (player.ideasDeck?.ideaCards.length || 0) + " Ideen"
+                : player.decks.length + " Decks"
+          }}
+</span></span>
 
 
         <!-- 👇 STATUS -->
@@ -225,28 +258,27 @@ onMounted(async () => {
         />
 
         <div
-            v-if="player.planningDecks.length"
-            class="planning-section"
+            v-if="player.ideasDeck && (!hasActiveFilters || filterIdeasOnly)"
+            class="ideas-section"
         >
-          <div class="planning-title">In Planung</div>
+          <div class="ideas-title">Ideen</div>
 
-          <div class="planning-list">
+          <div class="ideas-list">
             <a
-                v-for="deck in player.planningDecks"
-                :key="deck.id"
-                class="planning-item"
-                :href="deck.url"
+                v-for="card in player.ideasDeck.ideaCards"
+                :key="card.scryfall_id"
+                class="ideas-item"
+                :href="player.ideasDeck.url"
                 target="_blank"
             >
               <img
-                  class="planning-image"
-                  :src="deck.commander.image"
-                  alt=""
+                  class="ideas-image"
+                  :src="`https://cards.scryfall.io/normal/front/${card.scryfall_id?.slice(0,1)}/${card.scryfall_id?.slice(1,2)}/${card.scryfall_id}.jpg`"
               />
 
-              <span class="planning-name">
-                {{ deck.cleanName }}
-              </span>
+              <span class="ideas-name">
+        {{ card.name }}
+      </span>
             </a>
           </div>
         </div>
@@ -405,6 +437,65 @@ onMounted(async () => {
   color: #fff;
   text-decoration: none;
   display: block;
+}
+
+
+
+
+
+
+.ideas-section {
+  background: rgba(255,255,255,0.04);
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.ideas-title {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
+}
+
+.ideas-name {
+  display: block;
+  font-size: 12px;
+}
+
+.ideas-list {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.ideas-item {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+  margin-right: 15px;
+}
+
+.ideas-item:hover {
+  opacity: 1;
+  transform: translateY(-3px);
+}
+
+.ideas-image {
+  width: 120px;
+  border-radius: 8px;
+}
+
+.ideas-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.08);
+  cursor: pointer;
 }
 
 </style>

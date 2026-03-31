@@ -61,9 +61,8 @@ export const players = [
       "3QF2a7vENkOLuXFAaaTUvQ",
       "dAfD3KiU-0ymjZGLWUXsOw",
       "dEa0R4a3q02zw1Z4AQzXpQ",
-      "46Nar73wxkmgLutL-anajg", // PLANUNG
-      "m45h2nxgfE66mQaY3X4cEw", // PLANUNG
-      "G-I3zz9qXE2NwBUE5Wx20w", // PLANUNG
+      "Q7HH8TLmOkiMJ5U4K2Lp9w",
+      "VH1wKI34ukqI2bMKRoyu-w", // IDEEN
     ],
   },
 

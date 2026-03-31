@@ -12,7 +12,7 @@ const priceStatus = getPriceStatus(props.deck.price);
 <template>
 <div
   class="card"
-  :class="{ 'card--illegal': deck.hasInstantWin || deck.hasGameChanger || deck.price > 125  }"
+  :class="{ 'card--illegal': deck.hasInstantWin || deck.hasGameChanger || deck.price > 125, 'card--editing': deck.isEditing  }"
   :style="{
     background: getColorGradient(deck.colors),
   }"
@@ -30,7 +30,7 @@ const priceStatus = getPriceStatus(props.deck.price);
       <img class="card__image" :src="deck.commander.image" />
 
       <div class="card__content">
-        <h3 class="card__title">{{ deck.name }}</h3>
+        <h3 class="card__title">{{ deck.cleanName }}</h3>
         <span class="card__commander">{{ deck.commander.name }}</span>
 
         <div class="card__price" :class="priceStatus">
@@ -89,6 +89,13 @@ const priceStatus = getPriceStatus(props.deck.price);
 .card--illegal {
    border: 5px solid #ff4444;
   box-shadow: 0 0 15px rgba(255, 68, 68, 0.6);
+}
+
+.card--editing {
+  opacity: 0.5;
+  filter: grayscale(0.6);
+  border: none;
+  box-shadow: none;
 }
 
 

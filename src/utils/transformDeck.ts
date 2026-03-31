@@ -66,8 +66,18 @@ const hasGameChanger = gameChangerCards.length > 0;
 const rawName = deck.name;
 
 const isPlanning = rawName.toLowerCase().includes("planung");
+const isIdeasDeck = rawName.toLowerCase().includes("ideen");
+const isEditing = rawName.toLowerCase().includes("bearbeitung");
 
-const cleanName = rawName.replace(/planung[:\s-]*/i, "").trim();
+const cleanName = rawName.replace(/bearbeitung[:\s-]*/i, "").trim();
+
+  let ideaCards: any[] = [];
+
+  if (isIdeasDeck) {
+    ideaCards = Object.values(deck.mainboard)
+        .map((entry: any) => entry.card)
+        .filter((card: any) => card?.type_line?.includes("Legendary Creature"));
+  }
 
 
 
@@ -88,7 +98,10 @@ return {
   hasGameChanger,
   gameChangerCards,
   isPlanning,
-  cleanName
+  cleanName,
+  isIdeasDeck,     // 👈 NEU
+  isEditing,       // 👈 NEU
+  ideaCards        // 👈 NEU
 }
 }
 
