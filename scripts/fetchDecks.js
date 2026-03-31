@@ -1,6 +1,9 @@
 import fs from "fs";
 import puppeteer from "puppeteer";
 import { players } from "./config/players.js";
+import 'dotenv/config'; // 👈 NEU (für .env)
+
+const API_KEY = process.env.PLAYGROUP_API_KEY;
 
 // nur die wichtigen Informationen speichern
 function simplifyCard(card) {

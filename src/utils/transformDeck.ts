@@ -3,11 +3,6 @@ import { GAMECHANGER_CARDS } from "../config";
 
 export function transformDeck(deck: any) {
 
-
-
-
-
-
   const commanderEntry = Object.values(deck.commanders)[0] as any
   const commanderCard = commanderEntry?.card
 
@@ -67,6 +62,16 @@ const colorIdentity = commanderCard?.color_identity || [];
 const hasInstantWin = instantWinCards.length > 0;
 const hasGameChanger = gameChangerCards.length > 0;
 
+
+const rawName = deck.name;
+
+const isPlanning = rawName.toLowerCase().includes("planung");
+
+const cleanName = rawName.replace(/planung[:\s-]*/i, "").trim();
+
+
+
+
 return {
   id: deck.id,
   name: deck.name,
@@ -82,6 +87,8 @@ return {
   instantWinCards, // 👈 gleich mit rein, brauchst du im UI
   hasGameChanger,
   gameChangerCards,
+  isPlanning,
+  cleanName
 }
 }
 

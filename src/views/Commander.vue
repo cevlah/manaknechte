@@ -45,33 +45,35 @@ function isDeckLegal(deck: any) {
 const filteredPlayers = computed(() => {
   return players.value
       .map((player) => {
-        const filteredDecks = player.decks.filter((deck: any) => {
 
-          // 🔹 Legal Filter
+        const activeDecks = player.decks.filter((deck: any) => {
+          if (deck.isPlanning) return false; // 🔥 raus hier
+
+          // dein bestehender Filter
           if (filterLegal.value === "legal" && !isDeckLegal(deck)) return false;
           if (filterLegal.value === "illegal" && isDeckLegal(deck)) return false;
 
-          // 🔹 Player Filter
           if (filterPlayer.value !== "all" && player.name !== filterPlayer.value) return false;
 
-          // 🔹 Multi Color AND Filter
           if (filterColors.value.length > 0) {
             const hasAllColors = filterColors.value.every(color =>
                 deck.colors.includes(color)
             );
-
             if (!hasAllColors) return false;
           }
 
           return true;
         });
 
+        const planningDecks = player.decks.filter((deck: any) => deck.isPlanning);
+
         return {
           ...player,
-          decks: filteredDecks,
+          decks: activeDecks,
+          planningDecks,
         };
       })
-      .filter(player => player.decks.length > 0); // nur Spieler mit Treffern
+      .filter(player => player.decks.length > 0 || player.planningDecks.length > 0);
 });
 
 function getPlayerStatus(player: any) {
@@ -221,7 +223,39 @@ onMounted(async () => {
             :key="deck.id"
             :deck="deck"
         />
+
+        <div
+            v-if="player.planningDecks.length"
+            class="planning-section"
+        >
+          <div class="planning-title">In Planung</div>
+
+          <div class="planning-list">
+            <a
+                v-for="deck in player.planningDecks"
+                :key="deck.id"
+                class="planning-item"
+                :href="deck.url"
+                target="_blank"
+            >
+              <img
+                  class="planning-image"
+                  :src="deck.commander.image"
+                  alt=""
+              />
+
+              <span class="planning-name">
+                {{ deck.cleanName }}
+              </span>
+            </a>
+          </div>
+        </div>
+
+
+
       </div>
+
+
 
     </div>
   </div>
@@ -325,6 +359,52 @@ onMounted(async () => {
   opacity: 0.7;
   margin-top: -10px;
   margin-bottom: 15px;
+}
+
+
+.planning-section {
+  background-color: #222;
+  padding: 15px;
+}
+
+.planning-title {
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
+}
+
+
+.planning-list {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 5px;
+}
+
+.planning-item {
+  min-width: 80px;
+  text-align: center;
+  opacity: 0.8;
+  transition: all 0.2s ease;
+}
+
+.planning-item:hover {
+  opacity: 1;
+  transform: translateY(-3px);
+}
+
+.planning-image {
+  width: 60px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.planning-name {
+  font-size: 11px;
+  margin-top: 4px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
 }
 
 </style>
