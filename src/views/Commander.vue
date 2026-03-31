@@ -484,7 +484,7 @@ onMounted(async () => {
 }
 
 .ideas-image {
-  width: 120px;
+  width: 160px;
   border-radius: 8px;
 }
 
