@@ -73,8 +73,8 @@ async function fetchDeck(page, id) {
 
 async function main() {
   const browser = await puppeteer.launch({
-    headless: false,
-    args: ["--no-sandbox"],
+    headless: "new",
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
 
   const page = await browser.newPage();
