@@ -1,28 +1,32 @@
-
 <script setup lang="ts">
 import DeckCard from "../components/DeckCard.vue";
 import { transformPlayer } from "../utils/transformDeck";
 import { ref, onMounted, onBeforeUnmount, computed } from "vue";
 
-const dropdownRef = ref<HTMLElement | null>(null);
-const filterLegal = ref<"all" | "legal" | "illegal">("all");
+/**
+ * -----------------------------
+ * STATE
+ * -----------------------------
+ */
+
+// Filter
+const filterLegal = ref<"all" | "legal" | "illegal" | "editing">("all");
 const filterPlayer = ref<string>("all");
 const filterColors = ref<string[]>([]);
 const filterIdeasOnly = ref(false);
 
-const hasActiveFilters = computed(() => {
-  return (
-      filterLegal.value !== "all" ||
-      filterPlayer.value !== "all" ||
-      filterColors.value.length > 0
-  );
-});
-
-const players = ref<any[]>([]);
-const openPlayers = ref<string[]>([]);
+// UI State
+const dropdownRef = ref<HTMLElement | null>(null);
 const showColorDropdown = ref(false);
+const openPlayers = ref<string[]>([]);
+
+// Daten
+const players = ref<any[]>([]);
 const lastUpdated = ref<string | null>(null);
 
+/**
+ * Farbdefinitionen für Filter
+ */
 const COLORS = [
   { key: "W", label: "Weiß" },
   { key: "U", label: "Blau" },
@@ -31,6 +35,26 @@ const COLORS = [
   { key: "G", label: "Grün" },
 ];
 
+/**
+ * Prüft ob irgendein Filter aktiv ist
+ */
+const hasActiveFilters = computed(() => {
+  return (
+      filterLegal.value !== "all" ||
+      filterPlayer.value !== "all" ||
+      filterColors.value.length > 0
+  );
+});
+
+/**
+ * -----------------------------
+ * UI HELFER
+ * -----------------------------
+ */
+
+/**
+ * Öffnet / schließt Spieler-Akkordeon
+ */
 function togglePlayer(name: string) {
   if (openPlayers.value.includes(name)) {
     openPlayers.value = openPlayers.value.filter(p => p !== name);
@@ -39,6 +63,9 @@ function togglePlayer(name: string) {
   }
 }
 
+/**
+ * Schließt Dropdown bei Klick außerhalb
+ */
 function handleClickOutside(event: MouseEvent) {
   if (!dropdownRef.value) return;
 
@@ -47,63 +74,98 @@ function handleClickOutside(event: MouseEvent) {
   }
 }
 
+/**
+ * -----------------------------
+ * BUSINESS LOGIK
+ * -----------------------------
+ */
+
+/**
+ * Prüft ob ein Deck den Regeln entspricht
+ */
 function isDeckLegal(deck: any) {
   return !deck.hasInstantWin && !deck.hasGameChanger && deck.price <= 125;
 }
 
+/**
+ * Filtert einzelne Decks anhand der gesetzten Filter
+ */
+function filterDeck(deck: any, playerName: string) {
+  if (deck.isIdeasDeck) return false;
+
+  // 🔥 Editing Filter (höchste Priorität)
+  if (filterLegal.value === "editing") {
+    return deck.isEditing === true;
+  }
+
+  // 🔹 Legal Filter
+  if (filterLegal.value === "legal" && !isDeckLegal(deck)) return false;
+  if (filterLegal.value === "illegal" && isDeckLegal(deck)) return false;
+
+  // 🔹 Spieler Filter
+  if (filterPlayer.value !== "all" && playerName !== filterPlayer.value) return false;
+
+  // 🔹 Farbfilter
+  if (filterColors.value.length > 0) {
+    const hasAllColors = filterColors.value.every(color =>
+        deck.colors.includes(color)
+    );
+    if (!hasAllColors) return false;
+  }
+
+  return true;
+}
+
+/**
+ * Hauptberechnung der angezeigten Spieler + Decks
+ */
 const filteredPlayers = computed(() => {
   return players.value
       .map((player) => {
+        // Normale Decks filtern
+        const activeDecks = player.decks.filter((deck: any) =>
+            filterDeck(deck, player.name)
+        );
 
-        const activeDecks = player.decks.filter((deck: any) => {
-          if (deck.isIdeasDeck) return false;
-
-          if (filterLegal.value === "legal" && !isDeckLegal(deck)) return false;
-          if (filterLegal.value === "illegal" && isDeckLegal(deck)) return false;
-
-          if (filterPlayer.value !== "all" && player.name !== filterPlayer.value) return false;
-
-          if (filterColors.value.length > 0) {
-            const hasAllColors = filterColors.value.every(color =>
-                deck.colors.includes(color)
-            );
-            if (!hasAllColors) return false;
-          }
-
-          return true;
-        });
-
+        // Ideen-Deck extrahieren (max. eins)
         const ideasDeck = player.decks.find((deck: any) => deck.isIdeasDeck);
 
         return {
           ...player,
+          // Im Ideen-Modus keine normalen Decks anzeigen
           decks: filterIdeasOnly.value ? [] : activeDecks,
           ideasDeck,
         };
       })
 
       .filter((player) => {
-        // 🧠 IDEEN ONLY MODE
+        // Nur Ideen anzeigen
         if (filterIdeasOnly.value) {
           return !!player.ideasDeck;
         }
 
-        // 🧠 NORMAL MODE (mit Filtern)
+        // Filter aktiv → nur Spieler mit Treffern
         if (hasActiveFilters.value) {
-          return player.decks.length > 0; // ❗ KEINE IDEEN hier
+          return player.decks.length > 0;
         }
 
-        // 🧠 DEFAULT MODE (ohne Filter)
+        // Standard → alles anzeigen
         return player.decks.length > 0 || player.ideasDeck;
       });
 });
 
+/**
+ * Berechnet den Status eines Spielers basierend auf seinen Decks
+ */
 function getPlayerStatus(player: any) {
   let hasInstantWin = false;
   let hasGameChanger = false;
   let hasOverBudget = false;
 
   player.decks.forEach((deck: any) => {
+    // 🔥 Bearbeitungs-Decks ignorieren
+    if (deck.isEditing) return;
+
     if (deck.hasInstantWin) hasInstantWin = true;
     if (deck.hasGameChanger) hasGameChanger = true;
     if (deck.price > 125) hasOverBudget = true;
@@ -114,6 +176,9 @@ function getPlayerStatus(player: any) {
   };
 }
 
+/**
+ * Formatiert das Datum für die Anzeige
+ */
 function formatDate(dateString: string) {
   const date = new Date(dateString);
 
@@ -126,15 +191,23 @@ function formatDate(dateString: string) {
   });
 }
 
+/**
+ * -----------------------------
+ * LIFECYCLE
+ * -----------------------------
+ */
+
+// Klick außerhalb überwachen
 onMounted(() => {
   document.addEventListener("click", handleClickOutside);
 });
 
+// Cleanup
 onBeforeUnmount(() => {
   document.removeEventListener("click", handleClickOutside);
 });
 
-// 🔥 HIER passiert der Magic Switch
+// Daten laden
 onMounted(async () => {
   const res = await fetch("/data/decks.json");
   const rawData = await res.json();
@@ -148,28 +221,23 @@ onMounted(async () => {
 <template>
   <router-link class="back-link" to="/">← Zurück</router-link>
 
-
-
-
   <div class="container container--main">
     <h1>Gespielte Commander</h1>
   </div>
 
 
   <div class="container">
-
     <div class="last-updated" v-if="lastUpdated">
       Letztes Update: {{ formatDate(lastUpdated) }}
     </div>
 
-
     <div class="filters">
-
       <!-- Legal -->
       <select v-model="filterLegal">
         <option value="all">Alle</option>
         <option value="legal">Legal</option>
         <option value="illegal">Illegal</option>
+        <option value="editing">In Bearbeitung</option>
       </select>
 
       <!-- Spieler -->
@@ -213,82 +281,54 @@ onMounted(async () => {
         <input type="checkbox" v-model="filterIdeasOnly" />
         Nur Deck Ideen anzeigen
       </label>
-
     </div>
 
 
     <div v-for="player in filteredPlayers" :key="player.name" class="player-section">
 
-      <!-- 👤 Spieler Name -->
-      <h2
-          class="player-name"
-          @click="togglePlayer(player.name)"
-      >
-        <span class="player-name__name">{{ player.name }} <span class="count">
-  {{
-            filterIdeasOnly
-                ? (player.ideasDeck?.ideaCards.length || 0) + " Ideen"
-                : player.decks.length + " Decks"
-          }}
-</span></span>
-
+      <!-- Spieler Name -->
+      <h2 class="player-name" @click="togglePlayer(player.name)">
+        <span class="player-name__name">{{ player.name }}
+          <span class="count">
+            {{
+                filterIdeasOnly
+                    ? (player.ideasDeck?.ideaCards.length || 0) + " Ideen"
+                    : player.decks.length + " Decks"
+            }}
+          </span>
+        </span>
 
         <!-- 👇 STATUS -->
         <span
             class="status-badge"
             :class="getPlayerStatus(player).isClean ? 'status-clean' : 'status-bad'"
-        >
-  {{ getPlayerStatus(player).isClean ? "legal" : "illegal" }}
-</span>
+                >
+          {{ getPlayerStatus(player).isClean ? "legal" : "illegal" }}
+        </span>
 
         <span class="arrow">
-    {{ openPlayers.includes(player.name) ? "▲" : "▼" }}
-  </span>
+          {{ openPlayers.includes(player.name) ? "▲" : "▼" }}
+        </span>
       </h2>
 
-      <!-- 🧩 Deck Grid -->
-      <div
-          v-if="openPlayers.includes(player.name)"
-          class="player-decks grid"
-      >
+      <!-- Deck Grid -->
+      <div v-if="openPlayers.includes(player.name)" class="player-decks grid">
         <DeckCard
             v-for="deck in player.decks"
             :key="deck.id"
             :deck="deck"
         />
 
-        <div
-            v-if="player.ideasDeck && (!hasActiveFilters || filterIdeasOnly)"
-            class="ideas-section"
-        >
+        <div v-if="player.ideasDeck && (!hasActiveFilters || filterIdeasOnly)" class="ideas-section">
           <div class="ideas-title">Ideen</div>
-
           <div class="ideas-list">
-            <a
-                v-for="card in player.ideasDeck.ideaCards"
-                :key="card.scryfall_id"
-                class="ideas-item"
-                :href="player.ideasDeck.url"
-                target="_blank"
-            >
-              <img
-                  class="ideas-image"
-                  :src="`https://cards.scryfall.io/normal/front/${card.scryfall_id?.slice(0,1)}/${card.scryfall_id?.slice(1,2)}/${card.scryfall_id}.jpg`"
-              />
-
-              <span class="ideas-name">
-        {{ card.name }}
-      </span>
+            <a v-for="card in player.ideasDeck.ideaCards" :key="card.scryfall_id" class="ideas-item" :href="player.ideasDeck.url" target="_blank">
+              <img class="ideas-image" :src="`https://cards.scryfall.io/normal/front/${card.scryfall_id?.slice(0,1)}/${card.scryfall_id?.slice(1,2)}/${card.scryfall_id}.jpg`"/>
+              <span class="ideas-name">{{ card.name }}</span>
             </a>
           </div>
         </div>
-
-
-
       </div>
-
-
-
     </div>
   </div>
 </template>
@@ -393,57 +433,6 @@ onMounted(async () => {
   margin-bottom: 15px;
 }
 
-
-.planning-section {
-  background-color: #222;
-  padding: 15px;
-}
-
-.planning-title {
-  margin-bottom: 20px;
-  text-align: center;
-  display: block;
-}
-
-
-.planning-list {
-  display: flex;
-  gap: 10px;
-  overflow-x: auto;
-  padding-bottom: 5px;
-}
-
-.planning-item {
-  min-width: 80px;
-  text-align: center;
-  opacity: 0.8;
-  transition: all 0.2s ease;
-}
-
-.planning-item:hover {
-  opacity: 1;
-  transform: translateY(-3px);
-}
-
-.planning-image {
-  width: 60px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
-}
-
-.planning-name {
-  font-size: 11px;
-  margin-top: 4px;
-  color: #fff;
-  text-decoration: none;
-  display: block;
-}
-
-
-
-
-
-
 .ideas-section {
   background: rgba(255,255,255,0.04);
   padding: 12px;
@@ -497,6 +486,11 @@ onMounted(async () => {
   background: rgba(255,255,255,0.08);
   cursor: pointer;
   font-size: 12px;
+}
+
+.status-editing {
+  background: rgba(255, 180, 50, 0.2);
+  color: #ffb347;
 }
 
 </style>

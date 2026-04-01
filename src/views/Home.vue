@@ -69,6 +69,7 @@ onMounted(() => {
         <router-link to="/hausregeln">Hausregeln</router-link>
         <router-link to="/pflege">Deckpflege</router-link>
         <router-link to="/commander">Commander</router-link>
+        <router-link class="nav--special" to="/turnier">Turnier</router-link>
       </nav>
     </div>
 
@@ -110,9 +111,9 @@ onMounted(() => {
 }
 
 .logo {
-  width: 180px;
+  width: 150px;
   position: relative;
-  top: 10px;
+  top: 5px;
   filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.7));
   transition: all 0.2s ease;
 
@@ -168,6 +169,10 @@ onMounted(() => {
   animation-delay: 0.5s;
 }
 
+.nav a:nth-child(4) {
+  animation-delay: 0.7s;
+}
+
 @keyframes navEnter {
   to {
     opacity: 1;
@@ -179,6 +184,10 @@ onMounted(() => {
 .nav a:hover {
   background: rgba(255, 255, 255, 0.15);
   transform: translateY(-2px);
+}
+
+.nav .nav--special {
+  background: rgba(252, 144, 58, 0.2);
 }
 
 

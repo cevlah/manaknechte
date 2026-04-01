@@ -19,6 +19,8 @@ export const BACKGROUNDS = [
     "https://images.ctfassets.net/s5n2t79q9icq/3YVb4d9J4Ifgu5g4ljltpB/cfe49c722142dec18cd4acfa4c950a46/Elesh_Norn_1040x1536_EN.png",
     "https://images.ctfassets.net/s5n2t79q9icq/6A4cGc71TaXQkSIZVeFL8/c64a252f60811af8c6ea344bba3badb9/omnath-locus-of-creation_znr_iphone_wallpaper.jpg",
     "https://images.ctfassets.net/s5n2t79q9icq/3WZcLlE18HvrlXiolfYRl3/9a2f50679911d5f304738dcb8c41cf63/mtgneo_tatsunari_toad_rider_iphone.jpg",
+    "https://images.ctfassets.net/s5n2t79q9icq/HkdjN8HdbXrecmyiRmImT/059d6ea3cc3d185aafd314fedf9046de/Wallpaper_1040x1536_The_Ur-Dragon.png",
+    "https://images.ctfassets.net/s5n2t79q9icq/4EerSVloKhRLlc71ds1RP6/16b5b43de85652d226e5ca5476c01bed/mtgmid_wrenn_and_seven_iphone_wallpaper.jpg"
 ];
 
 
