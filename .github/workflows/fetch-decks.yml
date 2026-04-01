@@ -35,3 +35,5 @@ jobs:
           git add public/data/decks.json
           git commit -m "auto update decks.json" || echo "no changes"
           git push
+      - name: Trigger Render Deploy
+        run: curl -X POST https://api.render.com/deploy/srv-d73c4oggjchc73b471hg?key=Mtm6TmOYsA0
