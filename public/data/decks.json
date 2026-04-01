@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-31T20:41:54.601Z",
+  "updatedAt": "2026-04-01T09:08:24.915Z",
   "players": [
     {
       "name": "Andreas",
@@ -41411,6 +41411,196 @@
                 "prices": {
                   "eur": 0.46,
                   "eur_foil": 0.32
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "fWLwf-Ro6k2awrjOR5qHsA",
+          "name": "IDEEN",
+          "commanders": {},
+          "mainboard": {
+            "Rin and Seri, Inseparable": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Rin and Seri, Inseparable",
+                "type_line": "Legendary Creature — Dog Cat",
+                "oracle_text": "Whenever you cast a Dog spell, create a 1/1 green Cat creature token.\nWhenever you cast a Cat spell, create a 1/1 white Dog creature token.\n{R}{G}{W}, {T}: Rin and Seri deals damage to any target equal to the number of Dogs you control. You gain life equal to the number of Cats you control.",
+                "color_identity": [
+                  "G",
+                  "R",
+                  "W"
+                ],
+                "scryfall_id": "d605c780-a42a-4816-8fb9-63e3114a8246",
+                "prices": {
+                  "eur": 10.86
+                }
+              }
+            },
+            "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+                "type_line": "Legendary Creature — Elder Dragon // Legendary Planeswalker — Bolas",
+                "color_identity": [
+                  "B",
+                  "R",
+                  "U"
+                ],
+                "scryfall_id": "7b215968-93a6-4278-ac61-4e3e8c3c3943",
+                "prices": {
+                  "eur": 16.23,
+                  "eur_foil": 29.4
+                }
+              }
+            },
+            "Kiora, Sovereign of the Deep": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Kiora, Sovereign of the Deep",
+                "type_line": "Legendary Creature — Merfolk Noble",
+                "oracle_text": "Vigilance, ward {3}\nWhenever you cast a Kraken, Leviathan, Octopus, or Serpent spell from your hand, look at the top X cards of your library, where X is that spell's mana value. You may cast a spell with mana value less than X from among them without paying its mana cost. Put the rest on the bottom of your library in a random order.",
+                "color_identity": [
+                  "G",
+                  "U"
+                ],
+                "scryfall_id": "7b599f53-614c-4b1f-9899-15d5d1e35879",
+                "prices": {
+                  "eur": 1.65,
+                  "eur_foil": 1.11
+                }
+              }
+            },
+            "Pantlaza, Sun-Favored": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Pantlaza, Sun-Favored",
+                "type_line": "Legendary Creature — Dinosaur",
+                "oracle_text": "Whenever Pantlaza or another Dinosaur you control enters, you may discover X, where X is that creature's toughness. Do this only once each turn. (Exile cards from the top of your library until you exile a nonland card with that mana value or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)",
+                "color_identity": [
+                  "G",
+                  "R",
+                  "W"
+                ],
+                "scryfall_id": "2524645e-b066-4351-885b-10faa8d819d7",
+                "prices": {
+                  "eur": 1.6,
+                  "eur_foil": 1.47
+                }
+              }
+            },
+            "Admiral Beckett Brass": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Admiral Beckett Brass",
+                "type_line": "Legendary Creature — Human Pirate",
+                "oracle_text": "Other Pirates you control get +1/+1.\nAt the beginning of your end step, gain control of target nonland permanent controlled by a player who was dealt combat damage by three or more Pirates this turn.",
+                "color_identity": [
+                  "B",
+                  "R",
+                  "U"
+                ],
+                "scryfall_id": "02cbd397-3ef3-465f-84fe-765dd1444af8",
+                "prices": {
+                  "eur": 0.3
+                }
+              }
+            },
+            "Obeka, Splitter of Seconds": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Obeka, Splitter of Seconds",
+                "type_line": "Legendary Creature — Ogre Warlock",
+                "oracle_text": "Menace\nWhenever Obeka deals combat damage to a player, you get that many additional upkeep steps after this phase.",
+                "color_identity": [
+                  "B",
+                  "R",
+                  "U"
+                ],
+                "scryfall_id": "03415c42-086e-4a2e-9be8-5cdcde83f134",
+                "prices": {
+                  "eur": 0.21,
+                  "eur_foil": 0.49
+                }
+              }
+            },
+            "Disa the Restless": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Disa the Restless",
+                "type_line": "Legendary Creature — Human Scout",
+                "oracle_text": "Whenever a Lhurgoyf permanent card is put into your graveyard from anywhere other than the battlefield, put it onto the battlefield.\nWhenever one or more creatures you control deal combat damage to a player, create a Tarmogoyf token.",
+                "color_identity": [
+                  "B",
+                  "G",
+                  "R"
+                ],
+                "scryfall_id": "f6716658-3235-4452-a0a8-9ab8cbe27152",
+                "prices": {
+                  "eur": 0.35,
+                  "eur_foil": 0.64
+                }
+              }
+            },
+            "Korvold, Fae-Cursed King": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Korvold, Fae-Cursed King",
+                "type_line": "Legendary Creature — Dragon Noble",
+                "oracle_text": "Flying\nWhenever Korvold enters or attacks, sacrifice another permanent.\nWhenever you sacrifice a permanent, put a +1/+1 counter on Korvold and draw a card.",
+                "color_identity": [
+                  "B",
+                  "G",
+                  "R"
+                ],
+                "scryfall_id": "607c1793-8e5a-4ebf-87c6-7f9c99bbd29a",
+                "prices": {
+                  "eur": 1.41
+                }
+              }
+            },
+            "Thantis, the Warweaver": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Thantis, the Warweaver",
+                "type_line": "Legendary Creature — Spider",
+                "oracle_text": "Vigilance, reach\nAll creatures attack each combat if able.\nWhenever a creature attacks you or a planeswalker you control, put a +1/+1 counter on Thantis.",
+                "color_identity": [
+                  "B",
+                  "G",
+                  "R"
+                ],
+                "scryfall_id": "91c54ac0-0edc-406f-8a22-f2996f604f36",
+                "prices": {
+                  "eur_foil": 1
+                }
+              }
+            },
+            "Anikthea, Hand of Erebos": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Anikthea, Hand of Erebos",
+                "type_line": "Legendary Enchantment Creature — Demigod",
+                "oracle_text": "Menace\nOther enchantment creatures you control have menace.\nWhenever Anikthea enters or attacks, exile up to one target non-Aura enchantment card from your graveyard. Create a token that's a copy of that card, except it's a 3/3 black Zombie creature in addition to its other types.",
+                "color_identity": [
+                  "B",
+                  "G",
+                  "W"
+                ],
+                "scryfall_id": "8b796a56-1611-4835-ac5b-48b4e9263685",
+                "prices": {
+                  "eur_foil": 4.02
                 }
               }
             }
