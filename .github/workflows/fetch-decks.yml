@@ -1,0 +1,33 @@
+name: Fetch Decks
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # alle 6 Stunden
+  workflow_dispatch: # manuell triggerbar
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Node installieren
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Dependencies installieren
+        run: npm install
+
+      - name: Script ausführen
+        run: node scripts/fetchDecks.js
+
+      - name: Änderungen committen
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add src/data/decks.json
+          git commit -m "auto update decks.json" || echo "no changes"
+          git push
