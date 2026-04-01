@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-01T12:28:12.583Z",
+  "updatedAt": "2026-04-01T20:09:20.576Z",
   "players": [
     {
       "name": "Andreas",
@@ -7035,22 +7035,6 @@
                 }
               }
             },
-            "Animate Dead": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Animate Dead",
-                "type_line": "Enchantment — Aura",
-                "oracle_text": "Enchant creature card in a graveyard\nWhen Animate Dead enters the battlefield, if it's on the battlefield, it loses \"enchant creature card in a graveyard\" and gains \"enchant creature put onto the battlefield with Animate Dead.\" Return enchanted creature card to the battlefield under your control and attach Animate Dead to it. When Animate Dead leaves the battlefield, that creature's controller sacrifices it.\nEnchanted creature gets -1/-0.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "d77ffc48-ccec-4801-bd29-3ee5f05b1deb",
-                "prices": {
-                  "eur": 5.94
-                }
-              }
-            },
             "Sakura-Tribe Elder": {
               "quantity": 1,
               "isFoil": false,
@@ -7084,20 +7068,20 @@
                 }
               }
             },
-            "Defense of the Heart": {
+            "Plains": {
               "quantity": 1,
               "isFoil": false,
               "card": {
-                "name": "Defense of the Heart",
-                "type_line": "Enchantment",
-                "oracle_text": "At the beginning of your upkeep, if an opponent controls three or more creatures, sacrifice this enchantment, search your library for up to two creature cards, put those cards onto the battlefield, then shuffle.",
+                "name": "Plains",
+                "type_line": "Basic Land — Plains",
+                "oracle_text": "({T}: Add {W}.)",
                 "color_identity": [
-                  "G"
+                  "W"
                 ],
-                "scryfall_id": "9e93381f-627f-41b6-b1b6-45d712a44d8e",
+                "scryfall_id": "7a2c8b8e-2e28-4f10-b04f-9b313c60c0bb",
                 "prices": {
-                  "eur": 13.02,
-                  "eur_foil": 103.33
+                  "eur": 1.54,
+                  "eur_foil": 25.42
                 }
               }
             },
@@ -7163,6 +7147,21 @@
                 "scryfall_id": "94b9d7af-3e6f-4227-bb7d-a17d6f250535",
                 "prices": {
                   "eur": 0.17
+                }
+              }
+            },
+            "Wastes": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Wastes",
+                "type_line": "Basic Land",
+                "oracle_text": "{T}: Add {C}.",
+                "color_identity": [],
+                "scryfall_id": "7019912c-bd9b-4b96-9388-400794909aa1",
+                "prices": {
+                  "eur": 0.39,
+                  "eur_foil": 6.43
                 }
               }
             },
@@ -7545,6 +7544,23 @@
                 }
               }
             },
+            "Life // Death": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Life // Death",
+                "type_line": "Sorcery // Sorcery",
+                "color_identity": [
+                  "B",
+                  "G"
+                ],
+                "scryfall_id": "e16d52ca-f8de-4852-9bff-9d208e5f678f",
+                "prices": {
+                  "eur": 0.2,
+                  "eur_foil": 0.47
+                }
+              }
+            },
             "Tyvar's Stand": {
               "quantity": 1,
               "isFoil": false,
@@ -7713,6 +7729,23 @@
                 "prices": {
                   "eur": 6.12,
                   "eur_foil": 7.47
+                }
+              }
+            },
+            "Sludge Titan": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Sludge Titan",
+                "type_line": "Creature — Zombie Giant",
+                "oracle_text": "Trample\nWhenever this creature enters or attacks, mill five cards. You may put a creature card and/or a land card from among them into your hand.",
+                "color_identity": [
+                  "B",
+                  "G"
+                ],
+                "scryfall_id": "f429617d-7134-4749-af8c-398eee68565d",
+                "prices": {
+                  "eur": 1.26
                 }
               }
             },
@@ -8018,23 +8051,6 @@
                 }
               }
             },
-            "Exsanguinate": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Exsanguinate",
-                "type_line": "Sorcery",
-                "oracle_text": "Each opponent loses X life. You gain life equal to the life lost this way.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "f11d7311-4066-4a5d-ba28-9857fa707a0b",
-                "prices": {
-                  "eur": 0.31,
-                  "eur_foil": 0.56
-                }
-              }
-            },
             "Garruk's Uprising": {
               "quantity": 1,
               "isFoil": false,
@@ -8182,6 +8198,23 @@
                 "scryfall_id": "402ff237-6581-47d5-a3f5-a7bdae505b41",
                 "prices": {
                   "eur": 0.25
+                }
+              }
+            },
+            "Herd Heirloom": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Herd Heirloom",
+                "type_line": "Artifact",
+                "oracle_text": "{T}: Add one mana of any color. Spend this mana only to cast a creature spell.\n{T}: Until end of turn, target creature you control with power 4 or greater gains trample and \"Whenever this creature deals combat damage to a player, draw a card.\"",
+                "color_identity": [
+                  "G"
+                ],
+                "scryfall_id": "5579a3ac-7fdb-4204-b44e-fe0174f78cfa",
+                "prices": {
+                  "eur": 2.4,
+                  "eur_foil": 3.32
                 }
               }
             },
