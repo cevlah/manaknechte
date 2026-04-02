@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-02T05:53:55.897Z",
+  "updatedAt": "2026-04-02T08:58:35.943Z",
   "players": [
     {
       "name": "Andreas",
@@ -6750,1471 +6750,6 @@
                 "prices": {
                   "eur": 0.18,
                   "eur_foil": 0.1
-                }
-              }
-            },
-            "Arcane Signet": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Arcane Signet",
-                "type_line": "Artifact",
-                "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
-                "color_identity": [],
-                "scryfall_id": "049ca0ff-0ca4-44f7-b144-731cf453afa9",
-                "prices": {
-                  "eur": 0.47,
-                  "eur_foil": 0.28
-                }
-              }
-            }
-          }
-        },
-        {
-          "id": "7QISxJf3SUSpShm8A-cIMw",
-          "name": "Flicker",
-          "commanders": {
-            "Aminatou, the Fateshifter": {
-              "quantity": 1,
-              "card": {
-                "name": "Aminatou, the Fateshifter",
-                "type_line": "Legendary Planeswalker — Aminatou",
-                "oracle_text": "+1: Draw a card, then put a card from your hand on top of your library.\n−1: Exile another target permanent you own, then return it to the battlefield under your control.\n−6: Choose left or right. Each player gains control of all nonland permanents other than Aminatou controlled by the next player in the chosen direction.\nAminatou, the Fateshifter can be your commander.",
-                "color_identity": [
-                  "B",
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "16b9f43a-9c3f-4bfa-9eb1-734189a4bb1f",
-                "prices": {
-                  "eur_foil": 3.4
-                }
-              }
-            }
-          },
-          "mainboard": {
-            "Island": {
-              "quantity": 6,
-              "isFoil": false,
-              "card": {
-                "name": "Island",
-                "type_line": "Basic Land — Island",
-                "oracle_text": "({T}: Add {U}.)",
-                "color_identity": [
-                  "U"
-                ],
-                "scryfall_id": "772b4f6b-dc2b-4247-8f55-f37608d75725",
-                "prices": {
-                  "eur": 0.05,
-                  "eur_foil": 0.16
-                }
-              }
-            },
-            "Arcane Sanctum": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Arcane Sanctum",
-                "type_line": "Land",
-                "oracle_text": "This land enters tapped.\n{T}: Add {W}, {U}, or {B}.",
-                "color_identity": [
-                  "B",
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "ed6aced0-6fa7-4881-bc90-f6003be5b05c",
-                "prices": {
-                  "eur": 0.33
-                }
-              }
-            },
-            "Swords to Plowshares": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Swords to Plowshares",
-                "type_line": "Instant",
-                "oracle_text": "Exile target creature. Its controller gains life equal to its power.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "6ff9af62-1895-465a-b1f3-61f0d8318958",
-                "prices": {
-                  "eur": 1.05,
-                  "eur_foil": 4.67
-                }
-              }
-            },
-            "Brago, King Eternal": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Brago, King Eternal",
-                "type_line": "Legendary Creature — Spirit Noble",
-                "oracle_text": "Flying\nWhenever Brago deals combat damage to a player, exile any number of target nonland permanents you control, then return those cards to the battlefield under their owner's control.",
-                "color_identity": [
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "8ba873c1-f1ff-49f2-9e0d-bc9d52f94d76",
-                "prices": {
-                  "eur": 1.77,
-                  "eur_foil": 5.87
-                }
-              }
-            },
-            "Wall of Omens": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Wall of Omens",
-                "type_line": "Creature — Wall",
-                "oracle_text": "Defender\nWhen this creature enters, draw a card.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "f5c2aad9-1dc4-4e33-a630-9b828de1ed20",
-                "prices": {
-                  "eur": 0.08,
-                  "eur_foil": 0.91
-                }
-              }
-            },
-            "Oath of Liliana": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Oath of Liliana",
-                "type_line": "Legendary Enchantment",
-                "oracle_text": "When Oath of Liliana enters, each opponent sacrifices a creature of their choice.\nAt the beginning of each end step, if a planeswalker entered the battlefield under your control this turn, create a 2/2 black Zombie creature token.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "2028f577-e0fb-48dd-89c6-f4a000b0a881",
-                "prices": {
-                  "eur": 0.46,
-                  "eur_foil": 1.34
-                }
-              }
-            },
-            "Felidar Guardian": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Felidar Guardian",
-                "type_line": "Creature — Cat Beast",
-                "oracle_text": "When this creature enters, you may exile another target permanent you control, then return that card to the battlefield under its owner's control.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "44bdbed8-5d21-4bf5-8a32-9623b1139c85",
-                "prices": {
-                  "eur": 1.36,
-                  "eur_foil": 9.03
-                }
-              }
-            },
-            "Oath of Kaya": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Oath of Kaya",
-                "type_line": "Legendary Enchantment",
-                "oracle_text": "When Oath of Kaya enters, it deals 3 damage to any target and you gain 3 life.\nWhenever an opponent attacks a planeswalker you control with one or more creatures, Oath of Kaya deals 2 damage to that player and you gain 2 life.",
-                "color_identity": [
-                  "B",
-                  "W"
-                ],
-                "scryfall_id": "faba010d-5b1b-4562-91d6-ec55303c4dcd",
-                "prices": {
-                  "eur": 0.43,
-                  "eur_foil": 0.83
-                }
-              }
-            },
-            "Castle Locthwain": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Castle Locthwain",
-                "type_line": "Land",
-                "oracle_text": "This land enters tapped unless you control a Swamp.\n{T}: Add {B}.\n{1}{B}{B}, {T}: Draw a card, then you lose life equal to the number of cards in your hand.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "aad27ff1-ed28-4536-bfdb-5a5de2aa9505",
-                "prices": {
-                  "eur": 2.84,
-                  "eur_foil": 3.12
-                }
-              }
-            },
-            "Blade Splicer": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Blade Splicer",
-                "type_line": "Creature — Phyrexian Human Artificer",
-                "oracle_text": "When this creature enters, create a 3/3 colorless Phyrexian Golem artifact creature token.\nGolems you control have first strike.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "b8e56a28-713b-4a13-a601-1128cf117539",
-                "prices": {
-                  "eur": 0.42,
-                  "eur_foil": 0.8
-                }
-              }
-            },
-            "Flicker of Fate": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Flicker of Fate",
-                "type_line": "Instant",
-                "oracle_text": "Exile target creature or enchantment, then return it to the battlefield under its owner's control.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "59e19bac-176c-4e37-bfc8-27c00de7c37f",
-                "prices": {
-                  "eur": 0.2,
-                  "eur_foil": 0.38
-                }
-              }
-            },
-            "Kiora Bests the Sea God": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Kiora Bests the Sea God",
-                "type_line": "Enchantment — Saga",
-                "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create an 8/8 blue Kraken creature token with hexproof.\nII — Tap all nonland permanents target opponent controls. They don't untap during their controller's next untap step.\nIII — Gain control of target permanent an opponent controls. Untap it.",
-                "color_identity": [
-                  "U"
-                ],
-                "scryfall_id": "2b604451-4f6c-4cfa-8d3a-01f18d01d88f",
-                "prices": {
-                  "eur": 5.49,
-                  "eur_foil": 8.28
-                }
-              }
-            },
-            "Ravenous Chupacabra": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Ravenous Chupacabra",
-                "type_line": "Creature — Beast Horror",
-                "oracle_text": "When this creature enters, destroy target creature an opponent controls.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "40d3e58e-f989-4169-9e2c-a66a23170dcf",
-                "prices": {
-                  "eur": 0.36
-                }
-              }
-            },
-            "Dimir Signet": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Dimir Signet",
-                "type_line": "Artifact",
-                "oracle_text": "{1}, {T}: Add {U}{B}.",
-                "color_identity": [
-                  "B",
-                  "U"
-                ],
-                "scryfall_id": "9a9a1df5-a4e8-49a4-aebe-ca93894ccfcf",
-                "prices": {
-                  "eur": 0.45,
-                  "eur_foil": 4.51
-                }
-              }
-            },
-            "Bojuka Bog": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Bojuka Bog",
-                "type_line": "Land",
-                "oracle_text": "This land enters tapped.\nWhen this land enters, exile target player's graveyard.\n{T}: Add {B}.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "0ac2a3ab-a221-47a7-b1c1-a9306fa48b0c",
-                "prices": {
-                  "eur": 1.08
-                }
-              }
-            },
-            "Tranquil Cove": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Tranquil Cove",
-                "type_line": "Land",
-                "oracle_text": "This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {W} or {U}.",
-                "color_identity": [
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "6b403e68-4696-4c8a-bb25-68dc7f98e5e4",
-                "prices": {
-                  "eur": 0.03
-                }
-              }
-            },
-            "History of Benalia": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "History of Benalia",
-                "type_line": "Enchantment — Saga",
-                "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Create a 2/2 white Knight creature token with vigilance.\nIII — Knights you control get +2/+1 until end of turn.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "d134385d-b01c-41c7-bb2d-30722b44dc5a",
-                "prices": {
-                  "eur": 0.99,
-                  "eur_foil": 3.11
-                }
-              }
-            },
-            "Sol Ring": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Sol Ring",
-                "type_line": "Artifact",
-                "oracle_text": "{T}: Add {C}{C}.",
-                "color_identity": [],
-                "scryfall_id": "3459b229-7c46-4f70-87d4-bb31c2c17dd9",
-                "prices": {
-                  "eur": 0.72
-                }
-              }
-            },
-            "Talisman of Dominance": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Talisman of Dominance",
-                "type_line": "Artifact",
-                "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. This artifact deals 1 damage to you.",
-                "color_identity": [
-                  "B",
-                  "U"
-                ],
-                "scryfall_id": "991037a2-fea2-49f5-8ace-ebbf9f678cff",
-                "prices": {
-                  "eur": 0.85,
-                  "eur_foil": 15.7
-                }
-              }
-            },
-            "Sejiri Shelter // Sejiri Glacier": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Sejiri Shelter // Sejiri Glacier",
-                "type_line": "Instant // Land",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "f25d56f9-aa54-4657-9ac9-e93fbba3e715",
-                "prices": {
-                  "eur": 2.12,
-                  "eur_foil": 3.18
-                }
-              }
-            },
-            "Soulherder": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Soulherder",
-                "type_line": "Creature — Spirit",
-                "oracle_text": "Whenever a creature is exiled from the battlefield, put a +1/+1 counter on this creature.\nAt the beginning of your end step, you may exile another target creature you control, then return that card to the battlefield under its owner's control.",
-                "color_identity": [
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "50bc0f5b-7421-45b9-af85-86dd9821b7d8",
-                "prices": {
-                  "eur": 1.4
-                }
-              }
-            },
-            "Callous Bloodmage": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Callous Bloodmage",
-                "type_line": "Creature — Vampire Warlock",
-                "oracle_text": "When this creature enters, choose one —\n• Create a 1/1 black and green Pest creature token with \"When this token dies, you gain 1 life.\"\n• You draw a card and you lose 1 life.\n• Exile target player's graveyard.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "81358736-65cf-44d8-819e-d0268d14cc76",
-                "prices": {
-                  "eur": 0.2,
-                  "eur_foil": 0.39
-                }
-              }
-            },
-            "Damn": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Damn",
-                "type_line": "Sorcery",
-                "oracle_text": "Destroy target creature. A creature destroyed this way can't be regenerated.\nOverload {2}{W}{W} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
-                "color_identity": [
-                  "B",
-                  "W"
-                ],
-                "scryfall_id": "efeae088-9ac5-4d2f-a15c-d8675a471ac5",
-                "prices": {
-                  "eur": 1.72,
-                  "eur_foil": 3.84
-                }
-              }
-            },
-            "Tivit, Seller of Secrets": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Tivit, Seller of Secrets",
-                "type_line": "Legendary Creature — Sphinx Rogue",
-                "oracle_text": "Flying, ward {3}\nCouncil's dilemma — Whenever Tivit enters or deals combat damage to a player, starting with you, each player votes for evidence or bribery. For each evidence vote, investigate. For each bribery vote, create a Treasure token.\nWhile voting, you may vote an additional time. (The votes can be for different choices or for the same choice.)",
-                "color_identity": [
-                  "B",
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "9235977e-a999-4ed0-83a3-742be87b13bb",
-                "prices": {
-                  "eur": 3.46,
-                  "eur_foil": 4.02
-                }
-              }
-            },
-            "Illithid Harvester // Plant Tadpoles": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Illithid Harvester // Plant Tadpoles",
-                "type_line": "Creature — Horror // Sorcery — Adventure",
-                "color_identity": [
-                  "U"
-                ],
-                "scryfall_id": "df9573a3-d013-4631-98ed-78418bf0bc78",
-                "prices": {
-                  "eur": 0.35,
-                  "eur_foil": 0.53
-                }
-              }
-            },
-            "Firja's Retribution": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Firja's Retribution",
-                "type_line": "Enchantment — Saga",
-                "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 4/4 white Angel Warrior creature token with flying and vigilance.\nII — Until end of turn, Angels you control gain \"{T}: Destroy target creature with power less than this creature's power.\"\nIII — Angels you control gain double strike until end of turn.",
-                "color_identity": [
-                  "B",
-                  "W"
-                ],
-                "scryfall_id": "e7d1bbe5-c63e-4a8d-b79a-0dcca221a726",
-                "prices": {
-                  "eur": 0.19
-                }
-              }
-            },
-            "Flickerwisp": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Flickerwisp",
-                "type_line": "Creature — Elemental",
-                "oracle_text": "Flying\nWhen this creature enters, exile another target permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "f6cccf30-2025-49bb-9b1e-240bbef03f27",
-                "prices": {
-                  "eur": 0.18,
-                  "eur_foil": 0.44
-                }
-              }
-            },
-            "Relic of Legends": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Relic of Legends",
-                "type_line": "Artifact",
-                "oracle_text": "{T}: Add one mana of any color.\nTap an untapped legendary creature you control: Add one mana of any color.",
-                "color_identity": [],
-                "scryfall_id": "64a2809e-c441-416c-90ff-6fb1e246dff3",
-                "prices": {
-                  "eur": 1.34,
-                  "eur_foil": 2.69
-                }
-              }
-            },
-            "Ertai Resurrected": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Ertai Resurrected",
-                "type_line": "Legendary Creature — Phyrexian Human Wizard",
-                "oracle_text": "Flash\nWhen Ertai Resurrected enters, choose up to one —\n• Counter target spell, activated ability, or triggered ability. Its controller draws a card.\n• Destroy another target creature or planeswalker. Its controller draws a card.",
-                "color_identity": [
-                  "B",
-                  "U"
-                ],
-                "scryfall_id": "b2185d26-05b7-4e8b-ab0a-4f9d1541d4c5",
-                "prices": {
-                  "eur": 0.68,
-                  "eur_foil": 0.99
-                }
-              }
-            },
-            "Birth of the Imperium": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Birth of the Imperium",
-                "type_line": "Enchantment — Saga",
-                "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 2/2 white Astartes Warrior creature token with vigilance for each opponent you have.\nII — Each opponent sacrifices a creature of their choice.\nIII — Draw two cards for each opponent who controls fewer creatures than you.",
-                "color_identity": [
-                  "B",
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "26386d35-7768-4b06-afe4-823028d99a48",
-                "prices": {
-                  "eur": 2.69
-                }
-              }
-            },
-            "Loran of the Third Path": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Loran of the Third Path",
-                "type_line": "Legendary Creature — Human Artificer",
-                "oracle_text": "Vigilance\nWhen Loran enters, destroy up to one target artifact or enchantment.\n{T}: You and target opponent each draw a card.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "71d515a3-4d94-47a8-bac2-4cfc6904077b",
-                "prices": {
-                  "eur": 3.03,
-                  "eur_foil": 3.19
-                }
-              }
-            },
-            "Azorius Signet": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Azorius Signet",
-                "type_line": "Artifact",
-                "oracle_text": "{1}, {T}: Add {W}{U}.",
-                "color_identity": [
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "7a9492ab-04a3-4251-a47e-b51eaba0b909",
-                "prices": {
-                  "eur": 0.26
-                }
-              }
-            },
-            "Malcator, Purity Overseer": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Malcator, Purity Overseer",
-                "type_line": "Legendary Creature — Phyrexian Elephant Wizard",
-                "oracle_text": "When Malcator enters, create a 3/3 colorless Phyrexian Golem artifact creature token.\nAt the beginning of your end step, if three or more artifacts entered the battlefield under your control this turn, create a 3/3 colorless Phyrexian Golem artifact creature token.",
-                "color_identity": [
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "36bda977-e5d1-4813-a5f5-265023965142",
-                "prices": {
-                  "eur": 0.16,
-                  "eur_foil": 0.23
-                }
-              }
-            },
-            "Staff of the Storyteller": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Staff of the Storyteller",
-                "type_line": "Artifact",
-                "oracle_text": "When this artifact enters, create a 1/1 white Spirit creature token with flying.\nWhenever you create one or more creature tokens, put a story counter on this artifact.\n{W}, {T}, Remove a story counter from this artifact: Draw a card.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "ab1d1461-1625-4163-aacd-a939f4871fad",
-                "prices": {
-                  "eur": 4.57
-                }
-              }
-            },
-            "The Eternal Wanderer": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "The Eternal Wanderer",
-                "type_line": "Legendary Planeswalker",
-                "oracle_text": "No more than one creature can attack The Eternal Wanderer each combat.\n+1: Exile up to one target artifact or creature. Return that card to the battlefield under its owner's control at the beginning of that player's next end step.\n0: Create a 2/2 white Samurai creature token with double strike.\n−4: For each player, choose a creature that player controls. Each player sacrifices all creatures they control not chosen this way.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "e59f26e7-c26b-4819-a7a3-69ed35ff0bc5",
-                "prices": {
-                  "eur": 0.94,
-                  "eur_foil": 1.11
-                }
-              }
-            },
-            "Scoured Barrens": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Scoured Barrens",
-                "type_line": "Land",
-                "oracle_text": "This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {W} or {B}.",
-                "color_identity": [
-                  "B",
-                  "W"
-                ],
-                "scryfall_id": "66aefbfc-3f67-443d-8ec4-cc9beafb64ee",
-                "prices": {
-                  "eur": 0.05,
-                  "eur_foil": 0.14
-                }
-              }
-            },
-            "Orzhov Signet": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Orzhov Signet",
-                "type_line": "Artifact",
-                "oracle_text": "{1}, {T}: Add {W}{B}.",
-                "color_identity": [
-                  "B",
-                  "W"
-                ],
-                "scryfall_id": "9325b7d1-d836-479b-a124-2f4eaf7cf1dd",
-                "prices": {
-                  "eur": 0.24
-                }
-              }
-            },
-            "Lórien Revealed": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Lórien Revealed",
-                "type_line": "Sorcery",
-                "oracle_text": "Draw three cards.\nIslandcycling {1} ({1}, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.)",
-                "color_identity": [
-                  "U"
-                ],
-                "scryfall_id": "0ce44270-a684-4489-9077-521456e6dfaa",
-                "prices": {
-                  "eur": 3.03,
-                  "eur_foil": 4.14
-                }
-              }
-            },
-            "Ghoulish Impetus": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Ghoulish Impetus",
-                "type_line": "Enchantment — Aura",
-                "oracle_text": "Enchant creature\nEnchanted creature gets +1/+1, has deathtouch, and is goaded.\nWhen enchanted creature dies, return this card to the battlefield at the beginning of the next end step.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "bbe9d991-0abb-47c1-810d-fa44c1820063",
-                "prices": {
-                  "eur": 5.97
-                }
-              }
-            },
-            "Tithing Blade // Consuming Sepulcher": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Tithing Blade // Consuming Sepulcher",
-                "type_line": "Artifact // Artifact",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "dbaa9a2d-e9fd-4746-a26c-f99ae731f024",
-                "prices": {
-                  "eur": 0.69,
-                  "eur_foil": 1
-                }
-              }
-            },
-            "Port of Karfell": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Port of Karfell",
-                "type_line": "Land",
-                "oracle_text": "This land enters tapped.\n{T}: Add {U}.\n{3}{U}{B}{B}, {T}, Sacrifice this land: Mill four cards, then return a creature card from your graveyard to the battlefield tapped. (To mill a card, put the top card of your library into your graveyard.)",
-                "color_identity": [
-                  "B",
-                  "U"
-                ],
-                "scryfall_id": "c1377ca1-aa54-4fed-b289-45309eb2f6b6",
-                "prices": {
-                  "eur": 0.11
-                }
-              }
-            },
-            "Disinformation Campaign": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Disinformation Campaign",
-                "type_line": "Enchantment",
-                "oracle_text": "When this enchantment enters, you draw a card and each opponent discards a card.\nWhenever you surveil, return this enchantment to its owner's hand.",
-                "color_identity": [
-                  "B",
-                  "U"
-                ],
-                "scryfall_id": "d34ea8c4-03b1-415f-80e1-7c3cf6933685",
-                "prices": {
-                  "eur": 0.15
-                }
-              }
-            },
-            "Talisman of Progress": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Talisman of Progress",
-                "type_line": "Artifact",
-                "oracle_text": "{T}: Add {C}.\n{T}: Add {W} or {U}. This artifact deals 1 damage to you.",
-                "color_identity": [
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "3290b095-7f4f-452d-b54d-b4290d182c8d",
-                "prices": {
-                  "eur": 0.41,
-                  "eur_foil": 2.47
-                }
-              }
-            },
-            "Lonely Arroyo": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Lonely Arroyo",
-                "type_line": "Land — Desert",
-                "oracle_text": "This land enters tapped.\nWhen this land enters, it deals 1 damage to target opponent.\n{T}: Add {W} or {U}.",
-                "color_identity": [
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "4b778b63-e5fc-4d63-a93b-4372f32cade2",
-                "prices": {
-                  "eur": 0.14,
-                  "eur_foil": 0.14
-                }
-              }
-            },
-            "Void Rend": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Void Rend",
-                "type_line": "Instant",
-                "oracle_text": "This spell can't be countered.\nDestroy target nonland permanent.",
-                "color_identity": [
-                  "B",
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "598f6fd1-51a3-4bb3-9696-911cd45367f9",
-                "prices": {
-                  "eur": 0.45,
-                  "eur_foil": 0.92
-                }
-              }
-            },
-            "Baleful Strix": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Baleful Strix",
-                "type_line": "Artifact Creature — Bird",
-                "oracle_text": "Flying, deathtouch\nWhen this creature enters, draw a card.",
-                "color_identity": [
-                  "B",
-                  "U"
-                ],
-                "scryfall_id": "be8439e6-f779-49f0-806a-b04995697a6a",
-                "prices": {
-                  "eur": 1.43
-                }
-              }
-            },
-            "Darkwater Catacombs": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Darkwater Catacombs",
-                "type_line": "Land",
-                "oracle_text": "{1}, {T}: Add {U}{B}.",
-                "color_identity": [
-                  "B",
-                  "U"
-                ],
-                "scryfall_id": "5d2b5e7c-7c96-42d6-9eb5-743c345c4463",
-                "prices": {
-                  "eur": 0.27
-                }
-              }
-            },
-            "Satoru, the Infiltrator": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Satoru, the Infiltrator",
-                "type_line": "Legendary Creature — Human Ninja Rogue",
-                "oracle_text": "Menace\nWhenever Satoru and/or one or more other nontoken creatures you control enter, if none of them were cast or no mana was spent to cast them, draw a card.",
-                "color_identity": [
-                  "B",
-                  "U"
-                ],
-                "scryfall_id": "1bea1a1a-b04a-41b4-9b4e-1ea082ea2ee4",
-                "prices": {
-                  "eur": 0.82,
-                  "eur_foil": 1.15
-                }
-              }
-            },
-            "Phelia, Exuberant Shepherd": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Phelia, Exuberant Shepherd",
-                "type_line": "Legendary Creature — Dog",
-                "oracle_text": "Flash\nWhenever Phelia attacks, exile up to one other target nonland permanent. At the beginning of the next end step, return that card to the battlefield under its owner's control. If it entered under your control, put a +1/+1 counter on Phelia.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "55707746-da6e-46e5-a5ca-7ac843fdc38e",
-                "prices": {
-                  "eur": 6.48,
-                  "eur_foil": 8.35
-                }
-              }
-            },
-            "Witch Enchanter // Witch-Blessed Meadow": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Witch Enchanter // Witch-Blessed Meadow",
-                "type_line": "Creature — Human Warlock // Land",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "62061e7c-cf19-4f03-b8fa-2bdba62d6b0b",
-                "prices": {
-                  "eur": 4.56,
-                  "eur_foil": 6.11
-                }
-              }
-            },
-            "Genku, Future Shaper": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Genku, Future Shaper",
-                "type_line": "Legendary Creature — Moonfolk Wizard",
-                "oracle_text": "Whenever another nontoken permanent you control leaves the battlefield, choose one that hasn't been chosen this turn. Create a creature token with those characteristics.\n• 2/2 white Fox with vigilance.\n• 1/2 blue Moonfolk with flying.\n• 1/1 black Rat with lifelink.\n{3}{W}{U}: Put a +1/+1 counter on each creature you control.",
-                "color_identity": [
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "0cbcc962-65c4-496d-8034-75c8d204dba3",
-                "prices": {
-                  "eur": 0.15,
-                  "eur_foil": 0.21
-                }
-              }
-            },
-            "Sink into Stupor // Soporific Springs": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Sink into Stupor // Soporific Springs",
-                "type_line": "Instant // Land",
-                "color_identity": [
-                  "U"
-                ],
-                "scryfall_id": "5358b87a-1a29-426d-b165-40c97da2c14d",
-                "prices": {
-                  "eur": 8.73,
-                  "eur_foil": 10.59
-                }
-              }
-            },
-            "Boggart Trawler // Boggart Bog": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Boggart Trawler // Boggart Bog",
-                "type_line": "Creature — Goblin // Land",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "d0d484a6-5610-4f1d-95ec-eda273c255e4",
-                "prices": {
-                  "eur": 1.73,
-                  "eur_foil": 2.66
-                }
-              }
-            },
-            "Command Tower": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Command Tower",
-                "type_line": "Land",
-                "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
-                "color_identity": [],
-                "scryfall_id": "27e36832-09ca-4070-8511-94580014c3ed",
-                "prices": {
-                  "eur": 0.15,
-                  "eur_foil": 2.16
-                }
-              }
-            },
-            "Beza, the Bounding Spring": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Beza, the Bounding Spring",
-                "type_line": "Legendary Creature — Elemental Elk",
-                "oracle_text": "When Beza enters, create a Treasure token if an opponent controls more lands than you. You gain 4 life if an opponent has more life than you. Create two 1/1 blue Fish creature tokens if an opponent controls more creatures than you. Draw a card if an opponent has more cards in hand than you.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "fc310a26-b6a0-4e42-98ab-bdfd7b06cb63",
-                "prices": {
-                  "eur": 9.2,
-                  "eur_foil": 13.09
-                }
-              }
-            },
-            "Loyal Warhound": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Loyal Warhound",
-                "type_line": "Creature — Dog",
-                "oracle_text": "Vigilance\nWhen this creature enters, if an opponent controls more lands than you, search your library for a basic Plains card, put it onto the battlefield tapped, then shuffle.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "1d01ce54-3f64-465e-835a-27c55753926b",
-                "prices": {
-                  "eur": 0.6
-                }
-              }
-            },
-            "Aether Channeler": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Aether Channeler",
-                "type_line": "Creature — Human Wizard",
-                "oracle_text": "When this creature enters, choose one —\n• Create a 1/1 white Bird creature token with flying.\n• Return another target nonland permanent to its owner's hand.\n• Draw a card.",
-                "color_identity": [
-                  "U"
-                ],
-                "scryfall_id": "213df60e-5ada-41ff-98e6-0ba094a6bed2",
-                "prices": {
-                  "eur": 0.34
-                }
-              }
-            },
-            "Dour Port-Mage": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Dour Port-Mage",
-                "type_line": "Creature — Frog Wizard",
-                "oracle_text": "Whenever one or more other creatures you control leave the battlefield without dying, draw a card.\n{1}{U}, {T}: Return another target creature you control to its owner's hand.",
-                "color_identity": [
-                  "U"
-                ],
-                "scryfall_id": "445d7436-3c39-46e2-bf0c-06d706f7f735",
-                "prices": {
-                  "eur": 2.83,
-                  "eur_foil": 3.12
-                }
-              }
-            },
-            "Yorion, Sky Nomad": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Yorion, Sky Nomad",
-                "type_line": "Legendary Creature — Bird Serpent",
-                "oracle_text": "Companion — Your starting deck contains at least twenty cards more than the minimum deck size. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlying\nWhen Yorion enters, exile any number of other nonland permanents you own and control. Return those cards to the battlefield at the beginning of the next end step.",
-                "color_identity": [
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "a245bb3b-9126-4361-824b-2b27fbba9696",
-                "prices": {
-                  "eur": 0.44
-                }
-              }
-            },
-            "Overlord of the Mistmoors": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Overlord of the Mistmoors",
-                "type_line": "Enchantment Creature — Avatar Horror",
-                "oracle_text": "Impending 4—{2}{W}{W} (If you cast this spell for its impending cost, it enters with four time counters and isn't a creature until the last is removed. At the beginning of your end step, remove a time counter from it.)\nWhenever this permanent enters or attacks, create two 2/1 white Insect creature tokens with flying.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "6bcafc2e-cef6-412d-8c5d-1658c3337292",
-                "prices": {
-                  "eur": 4.99,
-                  "eur_foil": 5.99
-                }
-              }
-            },
-            "Overlord of the Floodpits": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Overlord of the Floodpits",
-                "type_line": "Enchantment Creature — Avatar Horror",
-                "oracle_text": "Impending 4—{1}{U}{U} (If you cast this spell for its impending cost, it enters with four time counters and isn't a creature until the last is removed. At the beginning of your end step, remove a time counter from it.)\nFlying\nWhenever this permanent enters or attacks, draw two cards, then discard a card.",
-                "color_identity": [
-                  "U"
-                ],
-                "scryfall_id": "5fca5de8-9cda-4370-9f72-4462f8cfd696",
-                "prices": {
-                  "eur": 3.01,
-                  "eur_foil": 3.81
-                }
-              }
-            },
-            "Hall of Heliod's Generosity": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Hall of Heliod's Generosity",
-                "type_line": "Legendary Land",
-                "oracle_text": "{T}: Add {C}.\n{1}{W}, {T}: Put target enchantment card from your graveyard on top of your library.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "f08dfd99-59fa-4a6c-bd69-c647f639de4d",
-                "prices": {
-                  "eur": 7.67
-                }
-              }
-            },
-            "Myriad Landscape": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Myriad Landscape",
-                "type_line": "Land",
-                "oracle_text": "This land enters tapped.\n{T}: Add {C}.\n{2}, {T}, Sacrifice this land: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle.",
-                "color_identity": [],
-                "scryfall_id": "9a8b2950-8c5d-45ad-b2ce-59d96eca1e71",
-                "prices": {
-                  "eur": 0.1
-                }
-              }
-            },
-            "Temple of Silence": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Temple of Silence",
-                "type_line": "Land",
-                "oracle_text": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {W} or {B}.",
-                "color_identity": [
-                  "B",
-                  "W"
-                ],
-                "scryfall_id": "e185a110-9e65-4ecd-a051-16ac6967db3b",
-                "prices": {
-                  "eur": 0.17
-                }
-              }
-            },
-            "Caves of Koilos": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Caves of Koilos",
-                "type_line": "Land",
-                "oracle_text": "{T}: Add {C}.\n{T}: Add {W} or {B}. This land deals 1 damage to you.",
-                "color_identity": [
-                  "B",
-                  "W"
-                ],
-                "scryfall_id": "875fad57-4048-47ef-93c3-5cfa2fcee360",
-                "prices": {
-                  "eur": 0.89
-                }
-              }
-            },
-            "Toby, Beastie Befriender": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Toby, Beastie Befriender",
-                "type_line": "Legendary Creature — Human Wizard",
-                "oracle_text": "When Toby enters, create a 4/4 white Beast creature token with \"This token can't attack or block alone.\"\nAs long as you control four or more creature tokens, creature tokens you control have flying.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "c950654c-eb97-439a-9708-e6a92e30fddc",
-                "prices": {
-                  "eur": 0.19,
-                  "eur_foil": 0.47
-                }
-              }
-            },
-            "Temple of Deceit": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Temple of Deceit",
-                "type_line": "Land",
-                "oracle_text": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {U} or {B}.",
-                "color_identity": [
-                  "B",
-                  "U"
-                ],
-                "scryfall_id": "e18748ce-e52e-4cd1-89d4-cd2578a0d574",
-                "prices": {
-                  "eur": 0.19
-                }
-              }
-            },
-            "Temple of Enlightenment": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Temple of Enlightenment",
-                "type_line": "Land",
-                "oracle_text": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {W} or {U}.",
-                "color_identity": [
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "01f23c1a-a0fe-4520-88ed-045aa4044567",
-                "prices": {
-                  "eur": 0.08
-                }
-              }
-            },
-            "Spirited Companion": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Spirited Companion",
-                "type_line": "Enchantment Creature — Dog",
-                "oracle_text": "When this creature enters, draw a card.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "99c27e8e-1a9b-4175-a7fb-c8224bc08e68",
-                "prices": {
-                  "eur": 0.2
-                }
-              }
-            },
-            "Dismal Backwater": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Dismal Backwater",
-                "type_line": "Land",
-                "oracle_text": "This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {U} or {B}.",
-                "color_identity": [
-                  "B",
-                  "U"
-                ],
-                "scryfall_id": "f20aef3f-79f6-4357-8631-1d141f437def",
-                "prices": {
-                  "eur": 0.03,
-                  "eur_foil": 0.26
-                }
-              }
-            },
-            "Momentum Breaker": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Momentum Breaker",
-                "type_line": "Enchantment",
-                "oracle_text": "Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)\nWhen this enchantment enters, each opponent sacrifices a creature or Vehicle of their choice. Each opponent who can't discards a card.\n{2}, Sacrifice this enchantment: You gain life equal to your speed.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "38513b53-384f-45e7-9905-80dd2c3c4918",
-                "prices": {
-                  "eur": 0.39,
-                  "eur_foil": 0.54
-                }
-              }
-            },
-            "Adarkar Wastes": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Adarkar Wastes",
-                "type_line": "Land",
-                "oracle_text": "{T}: Add {C}.\n{T}: Add {W} or {U}. This land deals 1 damage to you.",
-                "color_identity": [
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "eabb8cd7-3f5c-40ea-b339-f0b6fed3489a",
-                "prices": {
-                  "eur": 0.52
-                }
-              }
-            },
-            "Talisman of Hierarchy": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Talisman of Hierarchy",
-                "type_line": "Artifact",
-                "oracle_text": "{T}: Add {C}.\n{T}: Add {W} or {B}. This artifact deals 1 damage to you.",
-                "color_identity": [
-                  "B",
-                  "W"
-                ],
-                "scryfall_id": "8be0a06b-c2b6-4b78-9b14-9d854736c251",
-                "prices": {
-                  "eur": 0.81
-                }
-              }
-            },
-            "Kykar, Zephyr Awakener": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Kykar, Zephyr Awakener",
-                "type_line": "Legendary Creature — Bird Wizard",
-                "oracle_text": "Flying\nWhenever you cast a noncreature spell, choose one —\n• Exile another target creature you control. Return that card to the battlefield under its owner's control at the beginning of the next end step.\n• Create a 1/1 white Spirit creature token with flying.",
-                "color_identity": [
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "9e371a29-bb06-402d-8ea3-f2a0b982a310",
-                "prices": {
-                  "eur": 0.25,
-                  "eur_foil": 0.5
-                }
-              }
-            },
-            "Sunlit Marsh": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Sunlit Marsh",
-                "type_line": "Land — Plains Swamp",
-                "oracle_text": "({T}: Add {W} or {B}.)\nThis land enters tapped.",
-                "color_identity": [
-                  "B",
-                  "W"
-                ],
-                "scryfall_id": "4b163c67-2e88-4181-90c9-3f15eba59d03",
-                "prices": {
-                  "eur": 0.2
-                }
-              }
-            },
-            "Dovin's Veto": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Dovin's Veto",
-                "type_line": "Instant",
-                "oracle_text": "This spell can't be countered.\nCounter target noncreature spell.",
-                "color_identity": [
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "ba332954-ed8c-48d7-8d85-971c7b71dccf",
-                "prices": {
-                  "eur": 0.95,
-                  "eur_foil": 2.7
-                }
-              }
-            },
-            "Restoration Magic": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Restoration Magic",
-                "type_line": "Instant",
-                "oracle_text": "Tiered (Choose one additional cost.)\n• Cure — {0} — Target permanent gains hexproof and indestructible until end of turn.\n• Cura — {1} — Target permanent gains hexproof and indestructible until end of turn. You gain 3 life.\n• Curaga — {3}{W} — Permanents you control gain hexproof and indestructible until end of turn. You gain 6 life.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "494e68e9-ecba-4482-82bc-207ad59144c1",
-                "prices": {
-                  "eur": 1.18,
-                  "eur_foil": 1.71
-                }
-              }
-            },
-            "Grave Titan": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Grave Titan",
-                "type_line": "Creature — Giant",
-                "oracle_text": "Deathtouch\nWhenever this creature enters or attacks, create two 2/2 black Zombie creature tokens.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "3b4faa6e-5013-4c59-80f5-662a386672eb",
-                "prices": {
-                  "eur": 0.4
-                }
-              }
-            },
-            "Negate": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Negate",
-                "type_line": "Instant",
-                "oracle_text": "Counter target noncreature spell.",
-                "color_identity": [
-                  "U"
-                ],
-                "scryfall_id": "52d58fe4-6070-4022-9cd7-c35a11b44525",
-                "prices": {
-                  "eur": 0.06,
-                  "eur_foil": 0.19
-                }
-              }
-            },
-            "Plains": {
-              "quantity": 7,
-              "isFoil": false,
-              "card": {
-                "name": "Plains",
-                "type_line": "Basic Land — Plains",
-                "oracle_text": "({T}: Add {W}.)",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "8a299a1e-1ce9-4668-a5f5-c587081acf6b",
-                "prices": {
-                  "eur": 0.03,
-                  "eur_foil": 0.09
-                }
-              }
-            },
-            "Swamp": {
-              "quantity": 4,
-              "isFoil": false,
-              "card": {
-                "name": "Swamp",
-                "type_line": "Basic Land — Swamp",
-                "oracle_text": "({T}: Add {B}.)",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "296d546a-7481-4cb9-9170-59402592507b",
-                "prices": {
-                  "eur": 0.02,
-                  "eur_foil": 0.69
-                }
-              }
-            },
-            "Ephemerate": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Ephemerate",
-                "type_line": "Instant",
-                "oracle_text": "Exile target creature you control, then return it to the battlefield under its owner's control.\nRebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "deda067d-0026-48f4-a5d4-c1f2ac4ab16a",
-                "prices": {
-                  "eur_foil": 2.45
-                }
-              }
-            },
-            "Displacer Kitten": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Displacer Kitten",
-                "type_line": "Creature — Cat Beast",
-                "oracle_text": "Avoidance — Whenever you cast a noncreature spell, exile up to one target nonland permanent you control, then return that card to the battlefield under its owner's control.",
-                "color_identity": [
-                  "U"
-                ],
-                "scryfall_id": "2b347ecf-d032-4d6c-9b4b-6e33c08a0722",
-                "prices": {
-                  "eur": 19.95,
-                  "eur_foil": 18.18
-                }
-              }
-            },
-            "Contaminated Landscape": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Contaminated Landscape",
-                "type_line": "Land",
-                "oracle_text": "{T}: Add {C}.\n{T}, Sacrifice this land: Search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle.\nCycling {W}{U}{B} ({W}{U}{B}, Discard this card: Draw a card.)",
-                "color_identity": [
-                  "B",
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "e2312c49-1627-47ad-8113-78a999a97d8d",
-                "prices": {
-                  "eur": 0.25,
-                  "eur_foil": 0.19
                 }
               }
             },
@@ -35539,17 +34074,20 @@
                 }
               }
             },
-            "Command Tower": {
-              "quantity": 1,
+            "Swamp": {
+              "quantity": 7,
               "isFoil": false,
               "card": {
-                "name": "Command Tower",
-                "type_line": "Land",
-                "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
-                "color_identity": [],
-                "scryfall_id": "7b2de1d7-0b13-423b-b0ca-31eb38b5b81f",
+                "name": "Swamp",
+                "type_line": "Basic Land — Swamp",
+                "oracle_text": "({T}: Add {B}.)",
+                "color_identity": [
+                  "B"
+                ],
+                "scryfall_id": "296d546a-7481-4cb9-9170-59402592507b",
                 "prices": {
-                  "eur": 0.13
+                  "eur": 0.02,
+                  "eur_foil": 0.69
                 }
               }
             },
@@ -35588,20 +34126,21 @@
                 }
               }
             },
-            "Path to Exile": {
+            "Talisman of Hierarchy": {
               "quantity": 1,
               "isFoil": false,
               "card": {
-                "name": "Path to Exile",
-                "type_line": "Instant",
-                "oracle_text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+                "name": "Talisman of Hierarchy",
+                "type_line": "Artifact",
+                "oracle_text": "{T}: Add {C}.\n{T}: Add {W} or {B}. This artifact deals 1 damage to you.",
                 "color_identity": [
+                  "B",
                   "W"
                 ],
-                "scryfall_id": "bde60409-6b44-43ce-9441-af6020fe6355",
+                "scryfall_id": "826f99c7-f534-4183-8f0d-efe1609808ac",
                 "prices": {
-                  "eur": 0.82,
-                  "eur_foil": 1.67
+                  "eur": 0.79,
+                  "eur_foil": 5.83
                 }
               }
             },
@@ -35619,6 +34158,22 @@
                 "prices": {
                   "eur": 0.41,
                   "eur_foil": 5.36
+                }
+              }
+            },
+            "Path to Exile": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Path to Exile",
+                "type_line": "Instant",
+                "oracle_text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+                "color_identity": [
+                  "W"
+                ],
+                "scryfall_id": "045ce37b-86d2-4e56-84af-b6625b53d13c",
+                "prices": {
+                  "eur": 0.81
                 }
               }
             },
@@ -35677,6 +34232,38 @@
                 }
               }
             },
+            "Isolated Chapel": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Isolated Chapel",
+                "type_line": "Land",
+                "oracle_text": "This land enters tapped unless you control a Plains or a Swamp.\n{T}: Add {W} or {B}.",
+                "color_identity": [
+                  "B",
+                  "W"
+                ],
+                "scryfall_id": "a1d95d37-5dbe-4a25-bc80-a4db08f3c63a",
+                "prices": {
+                  "eur": 0.51,
+                  "eur_foil": 2.09
+                }
+              }
+            },
+            "Sol Ring": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Sol Ring",
+                "type_line": "Artifact",
+                "oracle_text": "{T}: Add {C}{C}.",
+                "color_identity": [],
+                "scryfall_id": "3459b229-7c46-4f70-87d4-bb31c2c17dd9",
+                "prices": {
+                  "eur": 0.72
+                }
+              }
+            },
             "Talisman of Indulgence": {
               "quantity": 1,
               "isFoil": false,
@@ -35692,20 +34279,6 @@
                 "prices": {
                   "eur": 1.31,
                   "eur_foil": 15.03
-                }
-              }
-            },
-            "Sol Ring": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Sol Ring",
-                "type_line": "Artifact",
-                "oracle_text": "{T}: Add {C}{C}.",
-                "color_identity": [],
-                "scryfall_id": "0afa0e33-4804-4b00-b625-c2d6b61090fc",
-                "prices": {
-                  "eur": 0.79
                 }
               }
             },
@@ -35876,6 +34449,22 @@
                 "prices": {
                   "eur": 0.16,
                   "eur_foil": 0.42
+                }
+              }
+            },
+            "Body Count": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Body Count",
+                "type_line": "Instant",
+                "oracle_text": "Spectacle {B} (You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)\nDraw a card for each creature that died under your control this turn.",
+                "color_identity": [
+                  "B"
+                ],
+                "scryfall_id": "024bf289-2802-4f11-aebf-9373ffbd9c46",
+                "prices": {
+                  "eur": 1.38
                 }
               }
             },
@@ -36080,17 +34669,21 @@
                 }
               }
             },
-            "Exotic Orchard": {
+            "Blackcleave Cliffs": {
               "quantity": 1,
               "isFoil": false,
               "card": {
-                "name": "Exotic Orchard",
+                "name": "Blackcleave Cliffs",
                 "type_line": "Land",
-                "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
-                "color_identity": [],
-                "scryfall_id": "2448d4fb-f327-4a68-b5ce-806f63425f0a",
+                "oracle_text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {B} or {R}.",
+                "color_identity": [
+                  "B",
+                  "R"
+                ],
+                "scryfall_id": "1441fba4-fe06-4b5f-a103-aa6cf59a3859",
                 "prices": {
-                  "eur": 0.19
+                  "eur": 1.69,
+                  "eur_foil": 2.44
                 }
               }
             },
@@ -36192,22 +34785,6 @@
                 "scryfall_id": "f8f1f5e8-c1bf-405f-b8e3-655d5558e18d",
                 "prices": {
                   "eur": 0.49
-                }
-              }
-            },
-            "Shiny Impetus": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Shiny Impetus",
-                "type_line": "Enchantment — Aura",
-                "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)\nWhenever enchanted creature attacks, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
-                "color_identity": [
-                  "R"
-                ],
-                "scryfall_id": "14ce200f-95c9-4fae-be61-a6e7749dffe6",
-                "prices": {
-                  "eur": 0.07
                 }
               }
             },
@@ -36359,22 +34936,6 @@
                 }
               }
             },
-            "Dead Before Sunrise": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Dead Before Sunrise",
-                "type_line": "Instant",
-                "oracle_text": "Until end of turn, outlaw creatures you control get +1/+0 and gain \"{T}: This creature deals damage equal to its power to target creature.\" (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)",
-                "color_identity": [
-                  "R"
-                ],
-                "scryfall_id": "5e80936a-e2b2-4bc7-ba8d-7aecd822a6eb",
-                "prices": {
-                  "eur": 0.17
-                }
-              }
-            },
             "Mari, the Killing Quill": {
               "quantity": 1,
               "isFoil": false,
@@ -36388,6 +34949,38 @@
                 "scryfall_id": "6b4b3c1a-671c-422d-a98c-7d750760ca46",
                 "prices": {
                   "eur": 3.46
+                }
+              }
+            },
+            "Shiny Impetus": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Shiny Impetus",
+                "type_line": "Enchantment — Aura",
+                "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)\nWhenever enchanted creature attacks, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+                "color_identity": [
+                  "R"
+                ],
+                "scryfall_id": "a2e44a73-7cc0-4654-9c6f-d58513c7cabd",
+                "prices": {
+                  "eur": 0.06
+                }
+              }
+            },
+            "Rain of Riches": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Rain of Riches",
+                "type_line": "Enchantment",
+                "oracle_text": "When this enchantment enters, create two Treasure tokens.\nThe first spell you cast each turn that mana from a Treasure was spent to cast has cascade. (When you cast the spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)",
+                "color_identity": [
+                  "R"
+                ],
+                "scryfall_id": "d633a188-f533-4d28-b3f0-a19f4d78cc40",
+                "prices": {
+                  "eur": 0.64
                 }
               }
             },
@@ -36406,23 +34999,6 @@
                 "prices": {
                   "eur": 3.08,
                   "eur_foil": 4.35
-                }
-              }
-            },
-            "Great Train Heist": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Great Train Heist",
-                "type_line": "Instant",
-                "oracle_text": "Spree (Choose one or more additional costs.)\n+ {2}{R} — Untap all creatures you control. If it's your combat phase, there is an additional combat phase after this phase.\n+ {2} — Creatures you control get +1/+0 and gain first strike until end of turn.\n+ {R} — Choose target opponent. Whenever a creature you control deals combat damage to that player this turn, create a tapped Treasure token.",
-                "color_identity": [
-                  "R"
-                ],
-                "scryfall_id": "685ffd3a-7af6-4302-98c1-26d24ab4bfdf",
-                "prices": {
-                  "eur": 2.05,
-                  "eur_foil": 2.5
                 }
               }
             },
@@ -36477,22 +35053,6 @@
                 }
               }
             },
-            "Rain of Riches": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Rain of Riches",
-                "type_line": "Enchantment",
-                "oracle_text": "When this enchantment enters, create two Treasure tokens.\nThe first spell you cast each turn that mana from a Treasure was spent to cast has cascade. (When you cast the spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)",
-                "color_identity": [
-                  "R"
-                ],
-                "scryfall_id": "299f81b5-20eb-465b-bd36-2acd80a4f37c",
-                "prices": {
-                  "eur": 0.71
-                }
-              }
-            },
             "Big Score": {
               "quantity": 1,
               "isFoil": false,
@@ -36506,22 +35066,6 @@
                 "scryfall_id": "90f8a36e-2129-4bd4-870a-a998afaec199",
                 "prices": {
                   "eur": 0.91
-                }
-              }
-            },
-            "Monologue Tax": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Monologue Tax",
-                "type_line": "Enchantment",
-                "oracle_text": "Whenever an opponent casts their second spell each turn, you create a Treasure token.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "4ba2c9b9-06bc-4bf2-8df5-f0748fb2b8eb",
-                "prices": {
-                  "eur": 5.48
                 }
               }
             },
@@ -36542,6 +35086,22 @@
                 }
               }
             },
+            "Morbid Opportunist": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Morbid Opportunist",
+                "type_line": "Creature — Human Rogue",
+                "oracle_text": "Whenever one or more other creatures die, draw a card. This ability triggers only once each turn.",
+                "color_identity": [
+                  "B"
+                ],
+                "scryfall_id": "1f6ed601-3f89-4e8f-b806-f02b903fd8c7",
+                "prices": {
+                  "eur": 0.21
+                }
+              }
+            },
             "Brass's Bounty": {
               "quantity": 1,
               "isFoil": false,
@@ -36559,6 +35119,22 @@
                 }
               }
             },
+            "Monologue Tax": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Monologue Tax",
+                "type_line": "Enchantment",
+                "oracle_text": "Whenever an opponent casts their second spell each turn, you create a Treasure token.",
+                "color_identity": [
+                  "W"
+                ],
+                "scryfall_id": "b2b1ab21-fee9-42c4-abae-4e0883d34801",
+                "prices": {
+                  "eur": 5.32
+                }
+              }
+            },
             "Reckless Fireweaver": {
               "quantity": 1,
               "isFoil": false,
@@ -36572,23 +35148,6 @@
                 "scryfall_id": "3e626e3e-1d08-4d6c-b29b-71157e568b45",
                 "prices": {
                   "eur": 0.61
-                }
-              }
-            },
-            "Talisman of Hierarchy": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Talisman of Hierarchy",
-                "type_line": "Artifact",
-                "oracle_text": "{T}: Add {C}.\n{T}: Add {W} or {B}. This artifact deals 1 damage to you.",
-                "color_identity": [
-                  "B",
-                  "W"
-                ],
-                "scryfall_id": "8be0a06b-c2b6-4b78-9b14-9d854736c251",
-                "prices": {
-                  "eur": 0.81
                 }
               }
             },
@@ -36624,22 +35183,6 @@
                 }
               }
             },
-            "Morbid Opportunist": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Morbid Opportunist",
-                "type_line": "Creature — Human Rogue",
-                "oracle_text": "Whenever one or more other creatures die, draw a card. This ability triggers only once each turn.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "44b14a83-ba66-4c94-8b67-ebe577024532",
-                "prices": {
-                  "eur": 0.23
-                }
-              }
-            },
             "Desolate Mire": {
               "quantity": 1,
               "isFoil": false,
@@ -36654,23 +35197,6 @@
                 "scryfall_id": "a0ecbdad-aebf-421d-a71e-e112f8c0e4bb",
                 "prices": {
                   "eur": 0.3
-                }
-              }
-            },
-            "Isolated Chapel": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Isolated Chapel",
-                "type_line": "Land",
-                "oracle_text": "This land enters tapped unless you control a Plains or a Swamp.\n{T}: Add {W} or {B}.",
-                "color_identity": [
-                  "B",
-                  "W"
-                ],
-                "scryfall_id": "8ca61142-d0ed-42cb-9a51-0e44151f2b44",
-                "prices": {
-                  "eur": 0.52
                 }
               }
             },
@@ -36794,41 +35320,6 @@
                 }
               }
             },
-            "Swamp": {
-              "quantity": 7,
-              "isFoil": false,
-              "card": {
-                "name": "Swamp",
-                "type_line": "Basic Land — Swamp",
-                "oracle_text": "({T}: Add {B}.)",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "296d546a-7481-4cb9-9170-59402592507b",
-                "prices": {
-                  "eur": 0.02,
-                  "eur_foil": 0.69
-                }
-              }
-            },
-            "Blackcleave Cliffs": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Blackcleave Cliffs",
-                "type_line": "Land",
-                "oracle_text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {B} or {R}.",
-                "color_identity": [
-                  "B",
-                  "R"
-                ],
-                "scryfall_id": "b0be4d31-07da-42df-bfb9-241e5826d36d",
-                "prices": {
-                  "eur": 2.15,
-                  "eur_foil": 1.72
-                }
-              }
-            },
             "Olivia, Opulent Outlaw": {
               "quantity": 1,
               "isFoil": true,
@@ -36913,6 +35404,36 @@
                 "prices": {
                   "eur": 0.43,
                   "eur_foil": 0.39
+                }
+              }
+            },
+            "Command Tower": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Command Tower",
+                "type_line": "Land",
+                "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+                "color_identity": [],
+                "scryfall_id": "4d51a621-be31-4b74-8e0b-3958180a8bc5",
+                "prices": {
+                  "eur": 0.26,
+                  "eur_foil": 0.13
+                }
+              }
+            },
+            "Exotic Orchard": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Exotic Orchard",
+                "type_line": "Land",
+                "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+                "color_identity": [],
+                "scryfall_id": "ac9d97ef-a64b-43ef-8e4d-f3ebe46d9932",
+                "prices": {
+                  "eur": 0.21,
+                  "eur_foil": 0.18
                 }
               }
             }
@@ -38426,17 +36947,17 @@
             }
           },
           "mainboard": {
-            "Command Tower": {
+            "Thought Vessel": {
               "quantity": 1,
               "isFoil": false,
               "card": {
-                "name": "Command Tower",
-                "type_line": "Land",
-                "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+                "name": "Thought Vessel",
+                "type_line": "Artifact",
+                "oracle_text": "You have no maximum hand size.\n{T}: Add {C}.",
                 "color_identity": [],
-                "scryfall_id": "7b2de1d7-0b13-423b-b0ca-31eb38b5b81f",
+                "scryfall_id": "51b73ee7-a338-46bf-9de5-8ed8843e9937",
                 "prices": {
-                  "eur": 0.13
+                  "eur": 1.06
                 }
               }
             },
@@ -38454,19 +36975,21 @@
                 }
               }
             },
-            "Cleansing Nova": {
+            "Talisman of Hierarchy": {
               "quantity": 1,
               "isFoil": false,
               "card": {
-                "name": "Cleansing Nova",
-                "type_line": "Sorcery",
-                "oracle_text": "Choose one —\n• Destroy all creatures.\n• Destroy all artifacts and enchantments.",
+                "name": "Talisman of Hierarchy",
+                "type_line": "Artifact",
+                "oracle_text": "{T}: Add {C}.\n{T}: Add {W} or {B}. This artifact deals 1 damage to you.",
                 "color_identity": [
+                  "B",
                   "W"
                 ],
-                "scryfall_id": "9b576ac4-a4b4-4d2c-820c-cf9fcc0c57c0",
+                "scryfall_id": "826f99c7-f534-4183-8f0d-efe1609808ac",
                 "prices": {
-                  "eur": 0.37
+                  "eur": 0.79,
+                  "eur_foil": 5.83
                 }
               }
             },
@@ -38520,17 +37043,35 @@
                 }
               }
             },
-            "Thought Vessel": {
+            "Isolated Chapel": {
               "quantity": 1,
               "isFoil": false,
               "card": {
-                "name": "Thought Vessel",
-                "type_line": "Artifact",
-                "oracle_text": "You have no maximum hand size.\n{T}: Add {C}.",
-                "color_identity": [],
-                "scryfall_id": "e0cd769e-1aaf-458c-849f-3b6ebc7fd8c5",
+                "name": "Isolated Chapel",
+                "type_line": "Land",
+                "oracle_text": "This land enters tapped unless you control a Plains or a Swamp.\n{T}: Add {W} or {B}.",
+                "color_identity": [
+                  "B",
+                  "W"
+                ],
+                "scryfall_id": "a1d95d37-5dbe-4a25-bc80-a4db08f3c63a",
                 "prices": {
-                  "eur": 1.12
+                  "eur": 0.51,
+                  "eur_foil": 2.09
+                }
+              }
+            },
+            "Sol Ring": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Sol Ring",
+                "type_line": "Artifact",
+                "oracle_text": "{T}: Add {C}{C}.",
+                "color_identity": [],
+                "scryfall_id": "3459b229-7c46-4f70-87d4-bb31c2c17dd9",
+                "prices": {
+                  "eur": 0.72
                 }
               }
             },
@@ -38552,24 +37093,6 @@
                 }
               }
             },
-            "Mortify": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Mortify",
-                "type_line": "Instant",
-                "oracle_text": "Destroy target creature or enchantment.",
-                "color_identity": [
-                  "B",
-                  "W"
-                ],
-                "scryfall_id": "3b2c5187-71c7-4801-8a76-339c67322d35",
-                "prices": {
-                  "eur": 0.11,
-                  "eur_foil": 1.13
-                }
-              }
-            },
             "Talisman of Dominance": {
               "quantity": 1,
               "isFoil": false,
@@ -38588,17 +37111,20 @@
                 }
               }
             },
-            "Sol Ring": {
+            "Archmage Emeritus": {
               "quantity": 1,
               "isFoil": false,
               "card": {
-                "name": "Sol Ring",
-                "type_line": "Artifact",
-                "oracle_text": "{T}: Add {C}{C}.",
-                "color_identity": [],
-                "scryfall_id": "0afa0e33-4804-4b00-b625-c2d6b61090fc",
+                "name": "Archmage Emeritus",
+                "type_line": "Creature — Human Wizard",
+                "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, draw a card.",
+                "color_identity": [
+                  "U"
+                ],
+                "scryfall_id": "761df6cd-0928-4167-8902-58fdb50181a0",
                 "prices": {
-                  "eur": 0.79
+                  "eur": 1.64,
+                  "eur_foil": 2.91
                 }
               }
             },
@@ -38700,20 +37226,6 @@
                 }
               }
             },
-            "Exotic Orchard": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Exotic Orchard",
-                "type_line": "Land",
-                "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
-                "color_identity": [],
-                "scryfall_id": "2448d4fb-f327-4a68-b5ce-806f63425f0a",
-                "prices": {
-                  "eur": 0.19
-                }
-              }
-            },
             "Bastion of Remembrance": {
               "quantity": 1,
               "isFoil": false,
@@ -38782,22 +37294,20 @@
                 }
               }
             },
-            "Void Rend": {
+            "Lethal Scheme": {
               "quantity": 1,
               "isFoil": false,
               "card": {
-                "name": "Void Rend",
+                "name": "Lethal Scheme",
                 "type_line": "Instant",
-                "oracle_text": "This spell can't be countered.\nDestroy target nonland permanent.",
+                "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nDestroy target creature or planeswalker. Each creature that convoked this spell connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)",
                 "color_identity": [
-                  "B",
-                  "U",
-                  "W"
+                  "B"
                 ],
-                "scryfall_id": "598f6fd1-51a3-4bb3-9696-911cd45367f9",
+                "scryfall_id": "1b2c44f7-7b54-4cdf-8f53-ab78c515795b",
                 "prices": {
-                  "eur": 0.45,
-                  "eur_foil": 0.92
+                  "eur": 0.22,
+                  "eur_foil": 0.45
                 }
               }
             },
@@ -38817,19 +37327,38 @@
                 }
               }
             },
-            "Archmage Emeritus": {
+            "Underground River": {
               "quantity": 1,
               "isFoil": false,
               "card": {
-                "name": "Archmage Emeritus",
-                "type_line": "Creature — Human Wizard",
-                "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, draw a card.",
+                "name": "Underground River",
+                "type_line": "Land",
+                "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. This land deals 1 damage to you.",
                 "color_identity": [
+                  "B",
                   "U"
                 ],
-                "scryfall_id": "c3dbdc3b-4855-48aa-b06d-a31166161eab",
+                "scryfall_id": "1dbe5187-efdc-496a-aa52-020016ace47a",
                 "prices": {
-                  "eur": 1.76
+                  "eur": 1.98
+                }
+              }
+            },
+            "Talisman of Progress": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Talisman of Progress",
+                "type_line": "Artifact",
+                "oracle_text": "{T}: Add {C}.\n{T}: Add {W} or {U}. This artifact deals 1 damage to you.",
+                "color_identity": [
+                  "U",
+                  "W"
+                ],
+                "scryfall_id": "e1fd69ca-46d0-43b0-b770-1d82c3d05eb8",
+                "prices": {
+                  "eur": 0.38,
+                  "eur_foil": 4.9
                 }
               }
             },
@@ -38850,20 +37379,21 @@
                 }
               }
             },
-            "Underground River": {
+            "Mortify": {
               "quantity": 1,
               "isFoil": false,
               "card": {
-                "name": "Underground River",
-                "type_line": "Land",
-                "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. This land deals 1 damage to you.",
+                "name": "Mortify",
+                "type_line": "Instant",
+                "oracle_text": "Destroy target creature or enchantment.",
                 "color_identity": [
                   "B",
-                  "U"
+                  "W"
                 ],
-                "scryfall_id": "5e50c8d5-6b22-4fc6-87ea-3d7d77ced17f",
+                "scryfall_id": "11de7338-243a-40e2-84e3-c31240840768",
                 "prices": {
-                  "eur": 2.03
+                  "eur": 0.11,
+                  "eur_foil": 0.15
                 }
               }
             },
@@ -38898,40 +37428,6 @@
                 "prices": {
                   "eur": 0.31,
                   "eur_foil": 0.56
-                }
-              }
-            },
-            "Glacial Fortress": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Glacial Fortress",
-                "type_line": "Land",
-                "oracle_text": "This land enters tapped unless you control a Plains or an Island.\n{T}: Add {W} or {U}.",
-                "color_identity": [
-                  "U",
-                  "W"
-                ],
-                "scryfall_id": "11bee1bf-bc75-4d4f-8f41-a9a3c0cdd19e",
-                "prices": {
-                  "eur": 0.39
-                }
-              }
-            },
-            "Talisman of Hierarchy": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Talisman of Hierarchy",
-                "type_line": "Artifact",
-                "oracle_text": "{T}: Add {C}.\n{T}: Add {W} or {B}. This artifact deals 1 damage to you.",
-                "color_identity": [
-                  "B",
-                  "W"
-                ],
-                "scryfall_id": "8be0a06b-c2b6-4b78-9b14-9d854736c251",
-                "prices": {
-                  "eur": 0.81
                 }
               }
             },
@@ -39410,22 +37906,6 @@
                 }
               }
             },
-            "Lethal Scheme": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Lethal Scheme",
-                "type_line": "Instant",
-                "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nDestroy target creature or planeswalker. Each creature that convoked this spell connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "0802be9f-686f-4321-afa4-d472241de653",
-                "prices": {
-                  "eur": 0.23
-                }
-              }
-            },
             "Ardbert, Warrior of Darkness": {
               "quantity": 1,
               "isFoil": false,
@@ -39511,20 +37991,21 @@
                 }
               }
             },
-            "Talisman of Progress": {
+            "Void Rend": {
               "quantity": 1,
               "isFoil": false,
               "card": {
-                "name": "Talisman of Progress",
-                "type_line": "Artifact",
-                "oracle_text": "{T}: Add {C}.\n{T}: Add {W} or {U}. This artifact deals 1 damage to you.",
+                "name": "Void Rend",
+                "type_line": "Instant",
+                "oracle_text": "This spell can't be countered.\nDestroy target nonland permanent.",
                 "color_identity": [
+                  "B",
                   "U",
                   "W"
                 ],
-                "scryfall_id": "2dc4dfe7-ae80-4a6e-b588-fd497c35fe37",
+                "scryfall_id": "b1fe4252-f5f8-405a-82c4-2c7b35e7e7fb",
                 "prices": {
-                  "eur": 0.39
+                  "eur": 0.45
                 }
               }
             },
@@ -39559,23 +38040,6 @@
                 "scryfall_id": "a0ecbdad-aebf-421d-a71e-e112f8c0e4bb",
                 "prices": {
                   "eur": 0.3
-                }
-              }
-            },
-            "Isolated Chapel": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Isolated Chapel",
-                "type_line": "Land",
-                "oracle_text": "This land enters tapped unless you control a Plains or a Swamp.\n{T}: Add {W} or {B}.",
-                "color_identity": [
-                  "B",
-                  "W"
-                ],
-                "scryfall_id": "8ca61142-d0ed-42cb-9a51-0e44151f2b44",
-                "prices": {
-                  "eur": 0.52
                 }
               }
             },
@@ -39664,6 +38128,23 @@
                 }
               }
             },
+            "Swallowed by Leviathan": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Swallowed by Leviathan",
+                "type_line": "Instant",
+                "oracle_text": "Choose target spell. Surveil 2, then counter the chosen spell unless its controller pays {1} for each card in your graveyard. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+                "color_identity": [
+                  "U"
+                ],
+                "scryfall_id": "2270642d-fe2a-4265-aff0-a24a43ebe0a1",
+                "prices": {
+                  "eur": 0.06,
+                  "eur_foil": 0.19
+                }
+              }
+            },
             "Cornered by Black Mages": {
               "quantity": 1,
               "isFoil": false,
@@ -39722,6 +38203,23 @@
                 "scryfall_id": "35e9ec06-a848-4230-84a2-19cb8034e0f0",
                 "prices": {
                   "eur": 0.16
+                }
+              }
+            },
+            "Glacial Fortress": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Glacial Fortress",
+                "type_line": "Land",
+                "oracle_text": "This land enters tapped unless you control a Plains or an Island.\n{T}: Add {W} or {U}.",
+                "color_identity": [
+                  "U",
+                  "W"
+                ],
+                "scryfall_id": "a1fc8d86-b118-46e3-92a5-8cbf2ca282f7",
+                "prices": {
+                  "eur": 0.37
                 }
               }
             },
@@ -39820,6 +38318,36 @@
                 "prices": {
                   "eur": 0.47,
                   "eur_foil": 0.28
+                }
+              }
+            },
+            "Command Tower": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Command Tower",
+                "type_line": "Land",
+                "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+                "color_identity": [],
+                "scryfall_id": "4d51a621-be31-4b74-8e0b-3958180a8bc5",
+                "prices": {
+                  "eur": 0.26,
+                  "eur_foil": 0.13
+                }
+              }
+            },
+            "Exotic Orchard": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Exotic Orchard",
+                "type_line": "Land",
+                "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+                "color_identity": [],
+                "scryfall_id": "ac9d97ef-a64b-43ef-8e4d-f3ebe46d9932",
+                "prices": {
+                  "eur": 0.21,
+                  "eur_foil": 0.18
                 }
               }
             }
