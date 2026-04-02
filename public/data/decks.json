@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-02T15:40:07.242Z",
+  "updatedAt": "2026-04-02T20:03:27.849Z",
   "players": [
     {
       "name": "Andreas",
@@ -12024,6 +12024,23 @@
                 }
               }
             },
+            "Royal Treatment": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Royal Treatment",
+                "type_line": "Instant",
+                "oracle_text": "Target creature you control gains hexproof until end of turn. Create a Royal Role token attached to that creature. (If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has ward {1}.)",
+                "color_identity": [
+                  "G"
+                ],
+                "scryfall_id": "b6516b8f-ecfb-401e-ba8e-bf561aa2be64",
+                "prices": {
+                  "eur": 0.37,
+                  "eur_foil": 0.67
+                }
+              }
+            },
             "Utopia Sprawl": {
               "quantity": 1,
               "isFoil": false,
@@ -12562,7 +12579,7 @@
               }
             },
             "Plains": {
-              "quantity": 12,
+              "quantity": 11,
               "isFoil": false,
               "card": {
                 "name": "Plains",
