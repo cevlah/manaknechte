@@ -16,8 +16,8 @@
       <p>
         Wann: 14.05.2026 <br>
         Wo: Altenberger Straße 51 <br>
-        Zeit: 08:300 Uhr Einlass, 09:00 Beginn<br>
-        Teilnehmer: xxx
+        Zeit: 08:30 Uhr Einlass, 09:00 Beginn<br>
+        Teilnehmer: Paul, Andreas, Daniel, Robert, Felix, Patrick, Hartmut, Florian
       </p>
     </div>
 
@@ -43,9 +43,9 @@
     <div class="container">
       <h2>III <br></br>Ablauf</h2>
       <p>
-        Es nehmen 9 Spieler am Turnier teil. Gespielt werden 6 Runden, wobei pro Runde zwei Commander-Partien parallel stattfinden. Jeder Pod besteht aus 4 Spielern, sodass pro Runde ein Spieler pausiert. Insgesamt werden so 12 Partien gespielt.<br><br>
-        Dabei ergibt sich automatisch, dass 6 Spieler jeweils eine Pause haben und 5 Spiele absolvieren, während 3 Spieler alle 6 Spiele bestreiten. Diese drei Spieler werden im Vorfeld festgelegt und entsprechen den Spielern mit der niedrigsten ELO (laut Playgroup.gg).<br><br>
-        Damit das fair bleibt, wird eine Best-of-5-Wertung verwendet. Nach den 6 Runden zählen für jeden Spieler nur die besten 5 Ergebnisse. Spieler mit 6 Partien streichen also ihr schlechtestes Ergebnis.
+        Es nehmen 8 Spieler am Turnier teil. Gespielt werden 5 Runden, wobei pro Runde zwei Commander-Partien parallel stattfinden. <br>
+        Jeder Pod besteht aus 4 Spielern, sodass alle Spieler in jeder Runde aktiv sind und keine Pausen entstehen. <br>
+        Insgesamt werden so 10 Partien gespielt.<br>
       </p>
     </div>
 
@@ -53,7 +53,39 @@
     <div class="container">
       <h2>IV <br></br>Spielplan</h2>
       <p>
-        TBD
+        Die Teilnehmernummer wird am Tag des Turniers ausgelost.<br>
+        Jedes Spiel dauert maximal 90 Minuten gefolt von 15 Minuten Pause
+      </p>
+
+      <p>
+        <b>1. Runde</b><br>
+        Teilnehmer: 1, 2, 3, 4<br>
+        Teilnehmer: 5, 6, 7, 8<br>
+      </p>
+
+      <p>
+        <b>2. Runde</b><br>
+        Teilnehmer: 1, 5, 6, 7<br>
+        Teilnehmer: 2, 3, 4, 8<br>
+      </p>
+
+      <p>
+        <b>3. Runde</b><br>
+        Teilnehmer: 1, 3, 5, 8<br>
+        Teilnehmer: 2, 4, 6, 7<br>
+      </p>
+
+      <p>
+        <b>4. Runde</b><br>
+        Teilnehmer: 1, 4, 6, 8<br>
+        Teilnehmer: 2, 3, 5, 7<br>
+      </p>
+
+
+      <p>
+        <b>4. Runde</b><br>
+        Teilnehmer: 1, 2, 7, 8<br>
+        Teilnehmer: 3, 4, 5, 6<br>
       </p>
     </div>
 
@@ -77,7 +109,8 @@
         3 Spieler übrig: jeweils 1 Punkt<br>
         4 Spieler übrig: 0 Punkte
         <br><br>
-        Eliminierungen bringen keine direkten Punkte, werden aber für den Fall eines Gleichstands am Ende des Turniers als Tiebreaker mitgezählt.
+        Eliminierungen bringen einen halben Punkt.<br><br>
+        Im Falle eines Punktegleichstands werden zuerst die Siege und dann die Elimierungen als Tiebreaker herangezogen
       </p>
     </div>
 
@@ -85,7 +118,7 @@
     <div class="container">
       <h2>VI <br></br>Zeitregeln</h2>
       <p>
-        Eine Partie dauert maximal 90 Minuten. Sobald die Zeit abläuft, wird das Spiel sofort gestoppt, ohne dass der aktuelle Zug beendet wird. <br>
+        Eine Partie dauert maximal 90 Minuten. Sobald die Zeit abläuft, wird das Spiel sofort gestoppt, wenn man sich noch in einem dirketen Kampf befindet oder ein Zauber gewirkt wird, wird dieser noch ausgespielt. <br>
 
         Bei Regelfragen oder Diskussionen wird die Zeit pausiert.
       </p>
@@ -94,15 +127,15 @@
     <div class="container">
       <h2>VII <br></br>Turnierende & Wertung</h2>
       <p>
-        Nach den 6 Runden ist das Turnier beendet. Alle Punkte werden zusammengezählt (unter Berücksichtigung der Best-of-5-Wertung), und daraus ergibt sich die finale Platzierung.
+        Nach den 5 Runden ist das Turnier beendet. Alle Punkte werden zusammengezählt und daraus ergibt sich die finale Platzierung.
         <br><br>
-        Bei Punktgleichstand entscheidet zunächst die Anzahl der Siege, danach die Anzahl der Eliminierungen. Falls nötig, kann zusätzlich der direkte Vergleich oder ein Losentscheid herangezogen werden.
+        Bei Punktgleichstand entscheidet zunächst die Anzahl der Siege, danach die Anzahl der Eliminierungen.
       </p>
     </div>
 
 
     <div class="container">
-      <h2>VIII <br></br>Foulplay</h2>
+      <h2>VIII <br></br>Foulplay (mögliche Punktabzüge)</h2>
       <p>
         <b>Unfaires verhalten gegenüber Mitspielern</b><br>
         Beispiel: Ein Spieler macht abfällige oder respektlose Kommentare, verhält sich aggressiv oder verhöhnt andere Spieler nach einer Eliminierung.
