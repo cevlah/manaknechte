@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-01T20:50:25.463Z",
+  "updatedAt": "2026-04-02T05:53:55.897Z",
   "players": [
     {
       "name": "Andreas",
@@ -29997,73 +29997,6 @@
                 }
               }
             },
-            "Spiteful Visions": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Spiteful Visions",
-                "type_line": "Enchantment",
-                "oracle_text": "At the beginning of each player's draw step, that player draws an additional card.\nWhenever a player draws a card, this enchantment deals 1 damage to that player.",
-                "color_identity": [
-                  "B",
-                  "R"
-                ],
-                "scryfall_id": "e2475965-01a6-4a32-bca9-80018ab31d9a",
-                "prices": {
-                  "eur": 0.93
-                }
-              }
-            },
-            "Blood Artist": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Blood Artist",
-                "type_line": "Creature — Vampire",
-                "oracle_text": "Whenever this creature or another creature dies, target player loses 1 life and you gain 1 life.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "9ca6d92a-45d3-4d67-8ae9-f25dd4a86739",
-                "prices": {
-                  "eur": 1.85,
-                  "eur_foil": 4.59
-                }
-              }
-            },
-            "Bedevil": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Bedevil",
-                "type_line": "Instant",
-                "oracle_text": "Destroy target artifact, creature, or planeswalker.",
-                "color_identity": [
-                  "B",
-                  "R"
-                ],
-                "scryfall_id": "81e2b96b-ecf2-4dd9-bc9d-3c46ee8c59e6",
-                "prices": {
-                  "eur": 0.4,
-                  "eur_foil": 2.03
-                }
-              }
-            },
-            "Basilisk Collar": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Basilisk Collar",
-                "type_line": "Artifact — Equipment",
-                "oracle_text": "Equipped creature has deathtouch and lifelink. (Any amount of damage it deals to a creature is enough to destroy it. Damage dealt by this creature also causes you to gain that much life.)\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
-                "color_identity": [],
-                "scryfall_id": "9aeab4ce-0828-40f1-a058-0d6695646f4e",
-                "prices": {
-                  "eur": 2.9,
-                  "eur_foil": 3.49
-                }
-              }
-            },
             "Sign in Blood": {
               "quantity": 1,
               "isFoil": false,
@@ -30162,10 +30095,24 @@
                 "color_identity": [
                   "B"
                 ],
-                "scryfall_id": "03919c86-1c4a-43b0-a2db-54ca6ae1ac57",
+                "scryfall_id": "5b1cbd83-c997-4c95-86a0-fe3c83d14975",
                 "prices": {
-                  "eur": 1.04,
-                  "eur_foil": 2.23
+                  "eur": 0.81
+                }
+              }
+            },
+            "Basilisk Collar": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Basilisk Collar",
+                "type_line": "Artifact — Equipment",
+                "oracle_text": "Equipped creature has deathtouch and lifelink. (Any amount of damage it deals to a creature is enough to destroy it. Damage dealt by this creature also causes you to gain that much life.)\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+                "color_identity": [],
+                "scryfall_id": "55cdba1b-7a80-435f-9cff-b9365f62e311",
+                "prices": {
+                  "eur": 2.76,
+                  "eur_foil": 6.8
                 }
               }
             },
@@ -30236,20 +30183,51 @@
                 }
               }
             },
-            "Rampaging Ferocidon": {
+            "Chaos Warp": {
               "quantity": 1,
               "isFoil": false,
               "card": {
-                "name": "Rampaging Ferocidon",
-                "type_line": "Creature — Dinosaur",
-                "oracle_text": "Menace\nPlayers can't gain life.\nWhenever another creature enters, this creature deals 1 damage to that creature's controller.",
+                "name": "Chaos Warp",
+                "type_line": "Instant",
+                "oracle_text": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
                 "color_identity": [
                   "R"
                 ],
-                "scryfall_id": "39d3c658-1927-4af3-9077-88c4a669c730",
+                "scryfall_id": "80cb5b8e-e410-42e0-813e-c54903130cf5",
                 "prices": {
-                  "eur": 1.26,
-                  "eur_foil": 3.92
+                  "eur": 0.39
+                }
+              }
+            },
+            "Blood Artist": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Blood Artist",
+                "type_line": "Creature — Vampire",
+                "oracle_text": "Whenever this creature or another creature dies, target player loses 1 life and you gain 1 life.",
+                "color_identity": [
+                  "B"
+                ],
+                "scryfall_id": "e93e65d6-c2c8-4ab6-9296-7b21ff2ff8bf",
+                "prices": {
+                  "eur": 1.78
+                }
+              }
+            },
+            "Disrupt Decorum": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Disrupt Decorum",
+                "type_line": "Sorcery",
+                "oracle_text": "Goad all creatures you don't control. (Until your next turn, those creatures attack each combat if able and attack a player other than you if able.)",
+                "color_identity": [
+                  "R"
+                ],
+                "scryfall_id": "397de47f-02e8-4ccd-8de0-a37971cab3b0",
+                "prices": {
+                  "eur": 0.95
                 }
               }
             },
@@ -30261,9 +30239,9 @@
                 "type_line": "Artifact — Equipment",
                 "oracle_text": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}",
                 "color_identity": [],
-                "scryfall_id": "ccff131c-2a66-4ebf-97f1-774c9f41b222",
+                "scryfall_id": "d0ea4d16-39cc-4c27-ba06-158e20fdf870",
                 "prices": {
-                  "eur": 3.21
+                  "eur": 2.89
                 }
               }
             },
@@ -30278,6 +30256,22 @@
                 "scryfall_id": "3459b229-7c46-4f70-87d4-bb31c2c17dd9",
                 "prices": {
                   "eur": 0.72
+                }
+              }
+            },
+            "Spinerock Knoll": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Spinerock Knoll",
+                "type_line": "Land",
+                "oracle_text": "Hideaway 4 (When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nThis land enters tapped.\n{T}: Add {R}.\n{R}, {T}: You may play the exiled card without paying its mana cost if an opponent was dealt 7 or more damage this turn.",
+                "color_identity": [
+                  "R"
+                ],
+                "scryfall_id": "48f09add-2ec3-4447-84d3-3a4b268b17ca",
+                "prices": {
+                  "eur": 0.48
                 }
               }
             },
@@ -30312,6 +30306,24 @@
                 "prices": {
                   "eur": 0.17,
                   "eur_foil": 2.5
+                }
+              }
+            },
+            "Spiteful Visions": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Spiteful Visions",
+                "type_line": "Enchantment",
+                "oracle_text": "At the beginning of each player's draw step, that player draws an additional card.\nWhenever a player draws a card, this enchantment deals 1 damage to that player.",
+                "color_identity": [
+                  "B",
+                  "R"
+                ],
+                "scryfall_id": "19039ac4-1aaa-4aca-ba09-f7fc400b9ada",
+                "prices": {
+                  "eur": 0.86,
+                  "eur_foil": 14.48
                 }
               }
             },
@@ -30400,55 +30412,6 @@
                 }
               }
             },
-            "Disrupt Decorum": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Disrupt Decorum",
-                "type_line": "Sorcery",
-                "oracle_text": "Goad all creatures you don't control. (Until your next turn, those creatures attack each combat if able and attack a player other than you if able.)",
-                "color_identity": [
-                  "R"
-                ],
-                "scryfall_id": "bc91f0d5-6d50-4f71-a229-286364984e61",
-                "prices": {
-                  "eur": 1.51
-                }
-              }
-            },
-            "Spinerock Knoll": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Spinerock Knoll",
-                "type_line": "Land",
-                "oracle_text": "Hideaway 4 (When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nThis land enters tapped.\n{T}: Add {R}.\n{R}, {T}: You may play the exiled card without paying its mana cost if an opponent was dealt 7 or more damage this turn.",
-                "color_identity": [
-                  "R"
-                ],
-                "scryfall_id": "6bfb3dac-94d7-4b94-9a9e-6392d5ce5bf2",
-                "prices": {
-                  "eur": 0.5
-                }
-              }
-            },
-            "Mask of Griselbrand": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Mask of Griselbrand",
-                "type_line": "Legendary Artifact — Equipment",
-                "oracle_text": "Equipped creature has flying and lifelink.\nWhenever equipped creature dies, you may pay X life, where X is its power. If you do, draw X cards.\nEquip {3}",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "829786e2-260b-4bc6-935b-1868b37e2d33",
-                "prices": {
-                  "eur": 0.48,
-                  "eur_foil": 0.75
-                }
-              }
-            },
             "Blood Pact": {
               "quantity": 1,
               "isFoil": false,
@@ -30463,23 +30426,6 @@
                 "prices": {
                   "eur": 0.05,
                   "eur_foil": 0.25
-                }
-              }
-            },
-            "Foreboding Ruins": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Foreboding Ruins",
-                "type_line": "Land",
-                "oracle_text": "As this land enters, you may reveal a Swamp or Mountain card from your hand. If you don't, this land enters tapped.\n{T}: Add {B} or {R}.",
-                "color_identity": [
-                  "B",
-                  "R"
-                ],
-                "scryfall_id": "39fe4a43-22a9-4c05-8c57-bca3a61e935e",
-                "prices": {
-                  "eur": 0.28
                 }
               }
             },
@@ -30509,6 +30455,41 @@
                 "prices": {
                   "eur": 0.54,
                   "eur_foil": 0.95
+                }
+              }
+            },
+            "Armor of Shadows": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Armor of Shadows",
+                "type_line": "Instant",
+                "oracle_text": "Until end of turn, target creature gets +1/+0 and gains indestructible. (Damage and effects that say \"destroy\" don't destroy it.)",
+                "color_identity": [
+                  "B"
+                ],
+                "scryfall_id": "32f5d5be-777f-4e7b-b18c-ce4a9cedb7d0",
+                "prices": {
+                  "eur": 0.18,
+                  "eur_foil": 0.23
+                }
+              }
+            },
+            "Terminate": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Terminate",
+                "type_line": "Instant",
+                "oracle_text": "Destroy target creature. It can't be regenerated.",
+                "color_identity": [
+                  "B",
+                  "R"
+                ],
+                "scryfall_id": "3cba6180-a15e-4f7f-8843-e48e69e758a0",
+                "prices": {
+                  "eur": 0.27,
+                  "eur_foil": 0.48
                 }
               }
             },
@@ -30548,22 +30529,6 @@
                 }
               }
             },
-            "Leechridden Swamp": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Leechridden Swamp",
-                "type_line": "Land — Swamp",
-                "oracle_text": "({T}: Add {B}.)\nThis land enters tapped.\n{B}, {T}: Each opponent loses 1 life. Activate only if you control two or more black permanents.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "7e96d842-721d-4662-b94d-e6c6cc1f32ed",
-                "prices": {
-                  "eur": 0.45
-                }
-              }
-            },
             "Sulfuric Vortex": {
               "quantity": 1,
               "isFoil": false,
@@ -30574,10 +30539,10 @@
                 "color_identity": [
                   "R"
                 ],
-                "scryfall_id": "1d446b8b-1b09-4fef-8454-95ad272503c0",
+                "scryfall_id": "3253a624-50cc-4a8a-9b0c-9902aa53775f",
                 "prices": {
-                  "eur": 1.07,
-                  "eur_foil": 1.64
+                  "eur": 0.75,
+                  "eur_foil": 1.65
                 }
               }
             },
@@ -30599,17 +30564,20 @@
                 }
               }
             },
-            "Exotic Orchard": {
+            "Feed the Swarm": {
               "quantity": 1,
               "isFoil": false,
               "card": {
-                "name": "Exotic Orchard",
-                "type_line": "Land",
-                "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
-                "color_identity": [],
-                "scryfall_id": "2448d4fb-f327-4a68-b5ce-806f63425f0a",
+                "name": "Feed the Swarm",
+                "type_line": "Sorcery",
+                "oracle_text": "Destroy target creature or enchantment an opponent controls. You lose life equal to that permanent's mana value.",
+                "color_identity": [
+                  "B"
+                ],
+                "scryfall_id": "840d02c6-3d9c-47cd-9307-978d03380d0f",
                 "prices": {
-                  "eur": 0.19
+                  "eur": 0.21,
+                  "eur_foil": 0.38
                 }
               }
             },
@@ -30627,20 +30595,39 @@
                 }
               }
             },
-            "Chaos Warp": {
+            "Foreboding Ruins": {
               "quantity": 1,
               "isFoil": false,
               "card": {
-                "name": "Chaos Warp",
-                "type_line": "Instant",
-                "oracle_text": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
+                "name": "Foreboding Ruins",
+                "type_line": "Land",
+                "oracle_text": "As this land enters, you may reveal a Swamp or Mountain card from your hand. If you don't, this land enters tapped.\n{T}: Add {B} or {R}.",
                 "color_identity": [
+                  "B",
                   "R"
                 ],
-                "scryfall_id": "fff37491-f496-4810-80a4-d13470434994",
+                "scryfall_id": "f1724c72-8e0e-4380-82ba-1f9ec8e45f01",
                 "prices": {
-                  "eur": 0.4,
-                  "eur_foil": 0.79
+                  "eur": 0.25,
+                  "eur_foil": 0.61
+                }
+              }
+            },
+            "Rakdos, Lord of Riots": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Rakdos, Lord of Riots",
+                "type_line": "Legendary Creature — Demon",
+                "oracle_text": "You can't cast Rakdos unless an opponent lost life this turn.\nFlying, trample\nCreature spells you cast cost {1} less to cast for each 1 life your opponents have lost this turn.",
+                "color_identity": [
+                  "B",
+                  "R"
+                ],
+                "scryfall_id": "465ae992-881e-4b99-b676-2744c01744a6",
+                "prices": {
+                  "eur": 0.67,
+                  "eur_foil": 1.2
                 }
               }
             },
@@ -30659,21 +30646,6 @@
                 "prices": {
                   "eur": 2.72,
                   "eur_foil": 3.16
-                }
-              }
-            },
-            "Command Tower": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Command Tower",
-                "type_line": "Land",
-                "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
-                "color_identity": [],
-                "scryfall_id": "27e36832-09ca-4070-8511-94580014c3ed",
-                "prices": {
-                  "eur": 0.15,
-                  "eur_foil": 2.16
                 }
               }
             },
@@ -30738,10 +30710,10 @@
                 "color_identity": [
                   "B"
                 ],
-                "scryfall_id": "87e03d07-c491-4ea1-a2f7-49c022005059",
+                "scryfall_id": "38048d14-3463-4157-951f-1d68ec78a64e",
                 "prices": {
-                  "eur": 2.28,
-                  "eur_foil": 2.23
+                  "eur": 2.19,
+                  "eur_foil": 2.22
                 }
               }
             },
@@ -30791,23 +30763,6 @@
                 "scryfall_id": "5949e77b-a9e8-4c1c-8ee0-f3c7ac5f8f83",
                 "prices": {
                   "eur": 4.96
-                }
-              }
-            },
-            "Rakdos, Lord of Riots": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Rakdos, Lord of Riots",
-                "type_line": "Legendary Creature — Demon",
-                "oracle_text": "You can't cast Rakdos unless an opponent lost life this turn.\nFlying, trample\nCreature spells you cast cost {1} less to cast for each 1 life your opponents have lost this turn.",
-                "color_identity": [
-                  "B",
-                  "R"
-                ],
-                "scryfall_id": "3d0d5a41-8251-437c-a4a0-3b712281ebb0",
-                "prices": {
-                  "eur": 0.74
                 }
               }
             },
@@ -30893,6 +30848,38 @@
                 }
               }
             },
+            "Leechridden Swamp": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Leechridden Swamp",
+                "type_line": "Land — Swamp",
+                "oracle_text": "({T}: Add {B}.)\nThis land enters tapped.\n{B}, {T}: Each opponent loses 1 life. Activate only if you control two or more black permanents.",
+                "color_identity": [
+                  "B"
+                ],
+                "scryfall_id": "a07a0e31-ace6-40ad-8700-2d58135b5320",
+                "prices": {
+                  "eur": 0.41
+                }
+              }
+            },
+            "Mask of Griselbrand": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Mask of Griselbrand",
+                "type_line": "Legendary Artifact — Equipment",
+                "oracle_text": "Equipped creature has flying and lifelink.\nWhenever equipped creature dies, you may pay X life, where X is its power. If you do, draw X cards.\nEquip {3}",
+                "color_identity": [
+                  "B"
+                ],
+                "scryfall_id": "a8c36e65-395c-4800-bd0a-c444940a9b36",
+                "prices": {
+                  "eur": 0.45
+                }
+              }
+            },
             "Tectonic Giant": {
               "quantity": 1,
               "isFoil": false,
@@ -30922,6 +30909,22 @@
                 "scryfall_id": "fac55604-3635-4af1-b9ca-10d1f89db504",
                 "prices": {
                   "eur": 0.25
+                }
+              }
+            },
+            "Rampaging Ferocidon": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Rampaging Ferocidon",
+                "type_line": "Creature — Dinosaur",
+                "oracle_text": "Menace\nPlayers can't gain life.\nWhenever another creature enters, this creature deals 1 damage to that creature's controller.",
+                "color_identity": [
+                  "R"
+                ],
+                "scryfall_id": "53c38f4e-81ec-45b3-a6cf-06a65b674978",
+                "prices": {
+                  "eur": 1.21
                 }
               }
             },
@@ -31003,6 +31006,40 @@
                 }
               }
             },
+            "Blasphemous Edict": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Blasphemous Edict",
+                "type_line": "Sorcery",
+                "oracle_text": "You may pay {B} rather than pay this spell's mana cost if there are thirteen or more creatures on the battlefield.\nEach player sacrifices thirteen creatures of their choice.",
+                "color_identity": [
+                  "B"
+                ],
+                "scryfall_id": "11040ecd-3153-4029-b42b-1441bc51ec34",
+                "prices": {
+                  "eur": 5.9,
+                  "eur_foil": 6.26
+                }
+              }
+            },
+            "Bedevil": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Bedevil",
+                "type_line": "Instant",
+                "oracle_text": "Destroy target artifact, creature, or planeswalker.",
+                "color_identity": [
+                  "B",
+                  "R"
+                ],
+                "scryfall_id": "284fe591-88e6-46f0-8b9c-9ec7d143a2d0",
+                "prices": {
+                  "eur": 0.4
+                }
+              }
+            },
             "Mayhem Devil": {
               "quantity": 1,
               "isFoil": false,
@@ -31036,23 +31073,6 @@
                 }
               }
             },
-            "Terminate": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Terminate",
-                "type_line": "Instant",
-                "oracle_text": "Destroy target creature. It can't be regenerated.",
-                "color_identity": [
-                  "B",
-                  "R"
-                ],
-                "scryfall_id": "21f579c9-4b74-4461-8812-dcfd68fd2b97",
-                "prices": {
-                  "eur": 0.36
-                }
-              }
-            },
             "Blasphemous Act": {
               "quantity": 1,
               "isFoil": false,
@@ -31066,24 +31086,6 @@
                 "scryfall_id": "dc6c4337-7d3e-4700-9473-26185c109166",
                 "prices": {
                   "eur": 0.95
-                }
-              }
-            },
-            "Dragonskull Summit": {
-              "quantity": 1,
-              "isFoil": false,
-              "card": {
-                "name": "Dragonskull Summit",
-                "type_line": "Land",
-                "oracle_text": "This land enters tapped unless you control a Swamp or a Mountain.\n{T}: Add {B} or {R}.",
-                "color_identity": [
-                  "B",
-                  "R"
-                ],
-                "scryfall_id": "897976cb-a242-493e-b215-843bcdb6b44d",
-                "prices": {
-                  "eur": 0.43,
-                  "eur_foil": 0.39
                 }
               }
             },
@@ -31154,23 +31156,6 @@
                 }
               }
             },
-            "Armor of Shadows": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Armor of Shadows",
-                "type_line": "Instant",
-                "oracle_text": "Until end of turn, target creature gets +1/+0 and gains indestructible. (Damage and effects that say \"destroy\" don't destroy it.)",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "32f5d5be-777f-4e7b-b18c-ce4a9cedb7d0",
-                "prices": {
-                  "eur": 0.18,
-                  "eur_foil": 0.23
-                }
-              }
-            },
             "Blazemire Verge": {
               "quantity": 1,
               "isFoil": true,
@@ -31189,22 +31174,6 @@
                 }
               }
             },
-            "Feed the Swarm": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Feed the Swarm",
-                "type_line": "Sorcery",
-                "oracle_text": "Destroy target creature or enchantment an opponent controls. You lose life equal to that permanent's mana value.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "e66d4541-160c-4137-98e7-0eaa692c7d7a",
-                "prices": {
-                  "eur_foil": 0.27
-                }
-              }
-            },
             "Massacre Wurm": {
               "quantity": 1,
               "isFoil": true,
@@ -31218,23 +31187,6 @@
                 "scryfall_id": "39be2675-986c-4812-9448-99737e797671",
                 "prices": {
                   "eur_foil": 2.09
-                }
-              }
-            },
-            "Blasphemous Edict": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Blasphemous Edict",
-                "type_line": "Sorcery",
-                "oracle_text": "You may pay {B} rather than pay this spell's mana cost if there are thirteen or more creatures on the battlefield.\nEach player sacrifices thirteen creatures of their choice.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "11040ecd-3153-4029-b42b-1441bc51ec34",
-                "prices": {
-                  "eur": 5.9,
-                  "eur_foil": 6.26
                 }
               }
             },
@@ -31264,6 +31216,54 @@
                 "prices": {
                   "eur": 0.47,
                   "eur_foil": 0.28
+                }
+              }
+            },
+            "Dragonskull Summit": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Dragonskull Summit",
+                "type_line": "Land",
+                "oracle_text": "This land enters tapped unless you control a Swamp or a Mountain.\n{T}: Add {B} or {R}.",
+                "color_identity": [
+                  "B",
+                  "R"
+                ],
+                "scryfall_id": "897976cb-a242-493e-b215-843bcdb6b44d",
+                "prices": {
+                  "eur": 0.43,
+                  "eur_foil": 0.39
+                }
+              }
+            },
+            "Command Tower": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Command Tower",
+                "type_line": "Land",
+                "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+                "color_identity": [],
+                "scryfall_id": "4d51a621-be31-4b74-8e0b-3958180a8bc5",
+                "prices": {
+                  "eur": 0.26,
+                  "eur_foil": 0.13
+                }
+              }
+            },
+            "Exotic Orchard": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Exotic Orchard",
+                "type_line": "Land",
+                "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+                "color_identity": [],
+                "scryfall_id": "ac9d97ef-a64b-43ef-8e4d-f3ebe46d9932",
+                "prices": {
+                  "eur": 0.21,
+                  "eur_foil": 0.18
                 }
               }
             }
