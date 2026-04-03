@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-03T08:27:38.152Z",
+  "updatedAt": "2026-04-03T08:31:50.045Z",
   "players": [
     {
       "name": "Andreas",
@@ -48003,23 +48003,6 @@
                 }
               }
             },
-            "Plains": {
-              "quantity": 8,
-              "isFoil": false,
-              "card": {
-                "name": "Plains",
-                "type_line": "Basic Land — Plains",
-                "oracle_text": "({T}: Add {W}.)",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "73fb4a34-c11e-45e9-a986-43c0a0ae5424",
-                "prices": {
-                  "eur": 0.02,
-                  "eur_foil": 0.21
-                }
-              }
-            },
             "Terramorphic Expanse": {
               "quantity": 1,
               "isFoil": false,
@@ -48045,23 +48028,6 @@
                 "scryfall_id": "7b2de1d7-0b13-423b-b0ca-31eb38b5b81f",
                 "prices": {
                   "eur": 0.09
-                }
-              }
-            },
-            "Swamp": {
-              "quantity": 8,
-              "isFoil": false,
-              "card": {
-                "name": "Swamp",
-                "type_line": "Basic Land — Swamp",
-                "oracle_text": "({T}: Add {B}.)",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "296d546a-7481-4cb9-9170-59402592507b",
-                "prices": {
-                  "eur": 0.02,
-                  "eur_foil": 0.69
                 }
               }
             },
@@ -48476,23 +48442,6 @@
                 }
               }
             },
-            "Breena, the Demagogue": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Breena, the Demagogue",
-                "type_line": "Legendary Creature — Bird Warlock",
-                "oracle_text": "Flying\nWhenever a player attacks one of your opponents, if that opponent has more life than another of your opponents, that attacking player draws a card and you put two +1/+1 counters on a creature you control.",
-                "color_identity": [
-                  "B",
-                  "W"
-                ],
-                "scryfall_id": "6cb82b10-d785-4e20-84ac-0660d49be8ad",
-                "prices": {
-                  "eur_foil": 6.37
-                }
-              }
-            },
             "Secret Rendezvous": {
               "quantity": 1,
               "isFoil": false,
@@ -48693,23 +48642,6 @@
                 }
               }
             },
-            "Firemane Commando": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Firemane Commando",
-                "type_line": "Creature — Angel Soldier",
-                "oracle_text": "Flying\nWhenever you attack with two or more creatures, draw a card.\nWhenever another player attacks with two or more creatures, they draw a card if none of those creatures attacked you.",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "426a50de-13bb-4481-8643-ad492d3fc84a",
-                "prices": {
-                  "eur": 6.58,
-                  "eur_foil": 6.48
-                }
-              }
-            },
             "Ghoulish Impetus": {
               "quantity": 1,
               "isFoil": false,
@@ -48757,38 +48689,6 @@
                 "scryfall_id": "1f19d737-97dc-4b58-9c6b-be2a40c098ff",
                 "prices": {
                   "eur": 6
-                }
-              }
-            },
-            "War Room": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "War Room",
-                "type_line": "Land",
-                "oracle_text": "{T}: Add {C}.\n{3}, {T}, Pay life equal to the number of colors in your commanders' color identity: Draw a card.",
-                "color_identity": [],
-                "scryfall_id": "446f90fe-f5f1-47bb-8601-f3f18735b647",
-                "prices": {
-                  "eur": 4.1,
-                  "eur_foil": 3.87
-                }
-              }
-            },
-            "Tomik, Wielder of Law": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Tomik, Wielder of Law",
-                "type_line": "Legendary Creature — Human Advisor",
-                "oracle_text": "Affinity for planeswalkers (This spell costs {1} less to cast for each planeswalker you control.)\nFlying, vigilance\nWhenever an opponent attacks with creatures, if two or more of those creatures are attacking you and/or planeswalkers you control, that opponent loses 3 life and you draw a card.",
-                "color_identity": [
-                  "B",
-                  "W"
-                ],
-                "scryfall_id": "2c5a7550-fe1a-4797-9583-70ab56cfac0d",
-                "prices": {
-                  "eur_foil": 1.19
                 }
               }
             },
@@ -49105,36 +49005,6 @@
                 }
               }
             },
-            "Arcane Signet": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Arcane Signet",
-                "type_line": "Artifact",
-                "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
-                "color_identity": [],
-                "scryfall_id": "049ca0ff-0ca4-44f7-b144-731cf453afa9",
-                "prices": {
-                  "eur": 0.49,
-                  "eur_foil": 0.28
-                }
-              }
-            },
-            "Exotic Orchard": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Exotic Orchard",
-                "type_line": "Land",
-                "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
-                "color_identity": [],
-                "scryfall_id": "ac9d97ef-a64b-43ef-8e4d-f3ebe46d9932",
-                "prices": {
-                  "eur": 0.21,
-                  "eur_foil": 0.18
-                }
-              }
-            },
             "Fabled Passage": {
               "quantity": 1,
               "isFoil": false,
@@ -49162,6 +49032,136 @@
                 "prices": {
                   "eur": 0.13,
                   "eur_foil": 0.19
+                }
+              }
+            },
+            "Plains": {
+              "quantity": 8,
+              "isFoil": false,
+              "card": {
+                "name": "Plains",
+                "type_line": "Basic Land — Plains",
+                "oracle_text": "({T}: Add {W}.)",
+                "color_identity": [
+                  "W"
+                ],
+                "scryfall_id": "73fb4a34-c11e-45e9-a986-43c0a0ae5424",
+                "prices": {
+                  "eur": 0.02,
+                  "eur_foil": 0.21
+                }
+              }
+            },
+            "Swamp": {
+              "quantity": 8,
+              "isFoil": false,
+              "card": {
+                "name": "Swamp",
+                "type_line": "Basic Land — Swamp",
+                "oracle_text": "({T}: Add {B}.)",
+                "color_identity": [
+                  "B"
+                ],
+                "scryfall_id": "296d546a-7481-4cb9-9170-59402592507b",
+                "prices": {
+                  "eur": 0.02,
+                  "eur_foil": 0.69
+                }
+              }
+            },
+            "Breena, the Demagogue": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Breena, the Demagogue",
+                "type_line": "Legendary Creature — Bird Warlock",
+                "oracle_text": "Flying\nWhenever a player attacks one of your opponents, if that opponent has more life than another of your opponents, that attacking player draws a card and you put two +1/+1 counters on a creature you control.",
+                "color_identity": [
+                  "B",
+                  "W"
+                ],
+                "scryfall_id": "6cb82b10-d785-4e20-84ac-0660d49be8ad",
+                "prices": {
+                  "eur_foil": 6.37
+                }
+              }
+            },
+            "Firemane Commando": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Firemane Commando",
+                "type_line": "Creature — Angel Soldier",
+                "oracle_text": "Flying\nWhenever you attack with two or more creatures, draw a card.\nWhenever another player attacks with two or more creatures, they draw a card if none of those creatures attacked you.",
+                "color_identity": [
+                  "W"
+                ],
+                "scryfall_id": "426a50de-13bb-4481-8643-ad492d3fc84a",
+                "prices": {
+                  "eur": 6.58,
+                  "eur_foil": 6.48
+                }
+              }
+            },
+            "War Room": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "War Room",
+                "type_line": "Land",
+                "oracle_text": "{T}: Add {C}.\n{3}, {T}, Pay life equal to the number of colors in your commanders' color identity: Draw a card.",
+                "color_identity": [],
+                "scryfall_id": "446f90fe-f5f1-47bb-8601-f3f18735b647",
+                "prices": {
+                  "eur": 4.1,
+                  "eur_foil": 3.87
+                }
+              }
+            },
+            "Tomik, Wielder of Law": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Tomik, Wielder of Law",
+                "type_line": "Legendary Creature — Human Advisor",
+                "oracle_text": "Affinity for planeswalkers (This spell costs {1} less to cast for each planeswalker you control.)\nFlying, vigilance\nWhenever an opponent attacks with creatures, if two or more of those creatures are attacking you and/or planeswalkers you control, that opponent loses 3 life and you draw a card.",
+                "color_identity": [
+                  "B",
+                  "W"
+                ],
+                "scryfall_id": "2c5a7550-fe1a-4797-9583-70ab56cfac0d",
+                "prices": {
+                  "eur_foil": 1.19
+                }
+              }
+            },
+            "Arcane Signet": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Arcane Signet",
+                "type_line": "Artifact",
+                "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+                "color_identity": [],
+                "scryfall_id": "049ca0ff-0ca4-44f7-b144-731cf453afa9",
+                "prices": {
+                  "eur": 0.49,
+                  "eur_foil": 0.28
+                }
+              }
+            },
+            "Exotic Orchard": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Exotic Orchard",
+                "type_line": "Land",
+                "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+                "color_identity": [],
+                "scryfall_id": "ac9d97ef-a64b-43ef-8e4d-f3ebe46d9932",
+                "prices": {
+                  "eur": 0.21,
+                  "eur_foil": 0.18
                 }
               }
             },
