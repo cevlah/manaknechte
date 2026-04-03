@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-02T20:03:27.849Z",
+  "updatedAt": "2026-04-03T05:53:43.532Z",
   "players": [
     {
       "name": "Andreas",
@@ -6810,6 +6810,23 @@
                 }
               }
             },
+            "Forest": {
+              "quantity": 11,
+              "isFoil": false,
+              "card": {
+                "name": "Forest",
+                "type_line": "Basic Land — Forest",
+                "oracle_text": "({T}: Add {G}.)",
+                "color_identity": [
+                  "G"
+                ],
+                "scryfall_id": "a4df3e89-610c-4f42-a93a-e694342307cc",
+                "prices": {
+                  "eur": 0.02,
+                  "eur_foil": 0.12
+                }
+              }
+            },
             "Sakura-Tribe Elder": {
               "quantity": 1,
               "isFoil": false,
@@ -6824,6 +6841,23 @@
                 "prices": {
                   "eur": 0.3,
                   "eur_foil": 5.51
+                }
+              }
+            },
+            "Swamp": {
+              "quantity": 7,
+              "isFoil": false,
+              "card": {
+                "name": "Swamp",
+                "type_line": "Basic Land — Swamp",
+                "oracle_text": "({T}: Add {B}.)",
+                "color_identity": [
+                  "B"
+                ],
+                "scryfall_id": "296d546a-7481-4cb9-9170-59402592507b",
+                "prices": {
+                  "eur": 0.02,
+                  "eur_foil": 0.69
                 }
               }
             },
@@ -7063,6 +7097,22 @@
                 "prices": {
                   "eur": 10.11,
                   "eur_foil": 12.82
+                }
+              }
+            },
+            "Kazandu Mammoth // Kazandu Valley": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Kazandu Mammoth // Kazandu Valley",
+                "type_line": "Creature — Elephant // Land",
+                "color_identity": [
+                  "G"
+                ],
+                "scryfall_id": "09c8c150-a0d8-4254-9169-7697e9c540da",
+                "prices": {
+                  "eur": 0.27,
+                  "eur_foil": 0.33
                 }
               }
             },
@@ -7353,6 +7403,23 @@
                 }
               }
             },
+            "Yargle, Glutton of Urborg": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Yargle, Glutton of Urborg",
+                "type_line": "Legendary Creature — Frog Spirit",
+                "oracle_text": "",
+                "color_identity": [
+                  "B"
+                ],
+                "scryfall_id": "e07104c8-3af9-44ff-8f24-ce420333e05b",
+                "prices": {
+                  "eur": 0.05,
+                  "eur_foil": 0.04
+                }
+              }
+            },
             "Yargle and Multani": {
               "quantity": 1,
               "isFoil": false,
@@ -7521,6 +7588,23 @@
                 "scryfall_id": "f429617d-7134-4749-af8c-398eee68565d",
                 "prices": {
                   "eur": 1.19
+                }
+              }
+            },
+            "Hunted Bonebrute": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Hunted Bonebrute",
+                "type_line": "Creature — Skeleton Beast",
+                "oracle_text": "Menace\nWhen this creature enters, target opponent creates two 1/1 white Dog creature tokens.\nWhen this creature dies, each opponent loses 3 life.\nDisguise {1}{B}",
+                "color_identity": [
+                  "B"
+                ],
+                "scryfall_id": "30d2a4b8-df5f-49fc-86c3-d75adaa12cd4",
+                "prices": {
+                  "eur": 0.13,
+                  "eur_foil": 0.07
                 }
               }
             },
@@ -7893,6 +7977,23 @@
                 }
               }
             },
+            "Agonasaur Rex": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Agonasaur Rex",
+                "type_line": "Creature — Dinosaur",
+                "oracle_text": "Trample\nCycling {2}{G} ({2}{G}, Discard this card: Draw a card.)\nWhen you cycle this card, put two +1/+1 counters on up to one target creature or Vehicle. It gains trample and indestructible until end of turn.",
+                "color_identity": [
+                  "G"
+                ],
+                "scryfall_id": "63266a47-4c2e-4343-911a-fbd156485cf3",
+                "prices": {
+                  "eur": 0.29,
+                  "eur_foil": 0.38
+                }
+              }
+            },
             "Skull Prophet": {
               "quantity": 1,
               "isFoil": false,
@@ -7993,6 +8094,23 @@
                 }
               }
             },
+            "Rot-Curse Rakshasa": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Rot-Curse Rakshasa",
+                "type_line": "Creature — Demon",
+                "oracle_text": "Trample\nDecayed (This creature can't block. When it attacks, sacrifice it at end of combat.)\nRenew — {X}{B}{B}, Exile this card from your graveyard: Put a decayed counter on each of X target creatures. Activate only as a sorcery.",
+                "color_identity": [
+                  "B"
+                ],
+                "scryfall_id": "e71ab9d7-7f39-4207-a9ec-620528a04d90",
+                "prices": {
+                  "eur": 1.37,
+                  "eur_foil": 0.96
+                }
+              }
+            },
             "Summon: Titan": {
               "quantity": 1,
               "isFoil": false,
@@ -8072,124 +8190,6 @@
                 "scryfall_id": "0c20aa48-58a0-4dee-970f-ba1292affa28",
                 "prices": {
                   "eur": 0.77
-                }
-              }
-            },
-            "Forest": {
-              "quantity": 11,
-              "isFoil": false,
-              "card": {
-                "name": "Forest",
-                "type_line": "Basic Land — Forest",
-                "oracle_text": "({T}: Add {G}.)",
-                "color_identity": [
-                  "G"
-                ],
-                "scryfall_id": "a4df3e89-610c-4f42-a93a-e694342307cc",
-                "prices": {
-                  "eur": 0.02,
-                  "eur_foil": 0.12
-                }
-              }
-            },
-            "Swamp": {
-              "quantity": 7,
-              "isFoil": false,
-              "card": {
-                "name": "Swamp",
-                "type_line": "Basic Land — Swamp",
-                "oracle_text": "({T}: Add {B}.)",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "296d546a-7481-4cb9-9170-59402592507b",
-                "prices": {
-                  "eur": 0.02,
-                  "eur_foil": 0.69
-                }
-              }
-            },
-            "Kazandu Mammoth // Kazandu Valley": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Kazandu Mammoth // Kazandu Valley",
-                "type_line": "Creature — Elephant // Land",
-                "color_identity": [
-                  "G"
-                ],
-                "scryfall_id": "09c8c150-a0d8-4254-9169-7697e9c540da",
-                "prices": {
-                  "eur": 0.27,
-                  "eur_foil": 0.33
-                }
-              }
-            },
-            "Yargle, Glutton of Urborg": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Yargle, Glutton of Urborg",
-                "type_line": "Legendary Creature — Frog Spirit",
-                "oracle_text": "",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "e07104c8-3af9-44ff-8f24-ce420333e05b",
-                "prices": {
-                  "eur": 0.05,
-                  "eur_foil": 0.04
-                }
-              }
-            },
-            "Hunted Bonebrute": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Hunted Bonebrute",
-                "type_line": "Creature — Skeleton Beast",
-                "oracle_text": "Menace\nWhen this creature enters, target opponent creates two 1/1 white Dog creature tokens.\nWhen this creature dies, each opponent loses 3 life.\nDisguise {1}{B}",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "30d2a4b8-df5f-49fc-86c3-d75adaa12cd4",
-                "prices": {
-                  "eur": 0.13,
-                  "eur_foil": 0.07
-                }
-              }
-            },
-            "Agonasaur Rex": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Agonasaur Rex",
-                "type_line": "Creature — Dinosaur",
-                "oracle_text": "Trample\nCycling {2}{G} ({2}{G}, Discard this card: Draw a card.)\nWhen you cycle this card, put two +1/+1 counters on up to one target creature or Vehicle. It gains trample and indestructible until end of turn.",
-                "color_identity": [
-                  "G"
-                ],
-                "scryfall_id": "63266a47-4c2e-4343-911a-fbd156485cf3",
-                "prices": {
-                  "eur": 0.29,
-                  "eur_foil": 0.38
-                }
-              }
-            },
-            "Rot-Curse Rakshasa": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Rot-Curse Rakshasa",
-                "type_line": "Creature — Demon",
-                "oracle_text": "Trample\nDecayed (This creature can't block. When it attacks, sacrifice it at end of combat.)\nRenew — {X}{B}{B}, Exile this card from your graveyard: Put a decayed counter on each of X target creatures. Activate only as a sorcery.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "e71ab9d7-7f39-4207-a9ec-620528a04d90",
-                "prices": {
-                  "eur": 1.37,
-                  "eur_foil": 0.96
                 }
               }
             }
