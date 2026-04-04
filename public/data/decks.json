@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-04T05:17:06.145Z",
+  "updatedAt": "2026-04-04T08:03:06.513Z",
   "players": [
     {
       "name": "Andreas",
@@ -11343,23 +11343,6 @@
                 }
               }
             },
-            "Setessan Champion": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Setessan Champion",
-                "type_line": "Creature — Human Warrior",
-                "oracle_text": "Constellation — Whenever an enchantment you control enters, put a +1/+1 counter on this creature and draw a card.",
-                "color_identity": [
-                  "G"
-                ],
-                "scryfall_id": "5d5f6caf-64de-410f-b0f7-ec414a10966e",
-                "prices": {
-                  "eur": 3.85,
-                  "eur_foil": 2.61
-                }
-              }
-            },
             "Kenrith's Transformation": {
               "quantity": 1,
               "isFoil": false,
@@ -11374,40 +11357,6 @@
                 "prices": {
                   "eur": 1.02,
                   "eur_foil": 1.25
-                }
-              }
-            },
-            "Forest": {
-              "quantity": 13,
-              "isFoil": false,
-              "card": {
-                "name": "Forest",
-                "type_line": "Basic Land — Forest",
-                "oracle_text": "({T}: Add {G}.)",
-                "color_identity": [
-                  "G"
-                ],
-                "scryfall_id": "a4df3e89-610c-4f42-a93a-e694342307cc",
-                "prices": {
-                  "eur": 0.02,
-                  "eur_foil": 0.12
-                }
-              }
-            },
-            "Plains": {
-              "quantity": 11,
-              "isFoil": false,
-              "card": {
-                "name": "Plains",
-                "type_line": "Basic Land — Plains",
-                "oracle_text": "({T}: Add {W}.)",
-                "color_identity": [
-                  "W"
-                ],
-                "scryfall_id": "8a299a1e-1ce9-4668-a5f5-c587081acf6b",
-                "prices": {
-                  "eur": 0.03,
-                  "eur_foil": 0.09
                 }
               }
             },
@@ -12078,24 +12027,6 @@
                 }
               }
             },
-            "Ellivere of the Wild Court": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Ellivere of the Wild Court",
-                "type_line": "Legendary Creature — Human Knight",
-                "oracle_text": "Whenever Ellivere enters or attacks, create a Virtuous Role token attached to another target creature you control. (If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 for each enchantment you control.)\nWhenever an enchanted creature you control deals combat damage to a player, draw a card.",
-                "color_identity": [
-                  "G",
-                  "W"
-                ],
-                "scryfall_id": "45851394-b8f3-4713-8239-afcb387d47c5",
-                "prices": {
-                  "eur": 0.71,
-                  "eur_foil": 0.49
-                }
-              }
-            },
             "Royal Treatment": {
               "quantity": 1,
               "isFoil": false,
@@ -12226,24 +12157,6 @@
                 "prices": {
                   "eur": 0.81,
                   "eur_foil": 1.57
-                }
-              }
-            },
-            "Sovereign Okinec Ahau": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Sovereign Okinec Ahau",
-                "type_line": "Legendary Creature — Cat Noble",
-                "oracle_text": "Ward {2}\nWhenever Sovereign Okinec Ahau attacks, for each creature you control with power greater than that creature's base power, put a number of +1/+1 counters on that creature equal to the difference.",
-                "color_identity": [
-                  "G",
-                  "W"
-                ],
-                "scryfall_id": "a4b0bb52-f10f-4a13-bd3c-d9bf6091fd9b",
-                "prices": {
-                  "eur": 2.35,
-                  "eur_foil": 2.09
                 }
               }
             },
@@ -12513,6 +12426,92 @@
                 }
               }
             },
+            "Tempest Technique": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Tempest Technique",
+                "type_line": "Enchantment — Aura",
+                "oracle_text": "Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies. Copies become tokens.)\nEnchant creature you control\nEnchanted creature gets +1/+1 for each enchantment you control.",
+                "color_identity": [
+                  "W"
+                ],
+                "scryfall_id": "5d5ee7cc-4854-4b52-ba9b-64d5a401fca1",
+                "prices": {
+                  "eur": 0.41
+                }
+              }
+            },
+            "Shalai, Voice of Plenty": {
+              "quantity": 1,
+              "isFoil": false,
+              "card": {
+                "name": "Shalai, Voice of Plenty",
+                "type_line": "Legendary Creature — Angel",
+                "oracle_text": "Flying\nYou, planeswalkers you control, and other creatures you control have hexproof.\n{4}{G}{G}: Put a +1/+1 counter on each creature you control.",
+                "color_identity": [
+                  "G",
+                  "W"
+                ],
+                "scryfall_id": "53876046-cdb8-4157-96cd-7832d3ad2549",
+                "prices": {
+                  "eur": 0.97
+                }
+              }
+            },
+            "Setessan Champion": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Setessan Champion",
+                "type_line": "Creature — Human Warrior",
+                "oracle_text": "Constellation — Whenever an enchantment you control enters, put a +1/+1 counter on this creature and draw a card.",
+                "color_identity": [
+                  "G"
+                ],
+                "scryfall_id": "5d5f6caf-64de-410f-b0f7-ec414a10966e",
+                "prices": {
+                  "eur": 3.85,
+                  "eur_foil": 2.61
+                }
+              }
+            },
+            "Ellivere of the Wild Court": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Ellivere of the Wild Court",
+                "type_line": "Legendary Creature — Human Knight",
+                "oracle_text": "Whenever Ellivere enters or attacks, create a Virtuous Role token attached to another target creature you control. (If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 for each enchantment you control.)\nWhenever an enchanted creature you control deals combat damage to a player, draw a card.",
+                "color_identity": [
+                  "G",
+                  "W"
+                ],
+                "scryfall_id": "45851394-b8f3-4713-8239-afcb387d47c5",
+                "prices": {
+                  "eur": 0.71,
+                  "eur_foil": 0.49
+                }
+              }
+            },
+            "Sovereign Okinec Ahau": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Sovereign Okinec Ahau",
+                "type_line": "Legendary Creature — Cat Noble",
+                "oracle_text": "Ward {2}\nWhenever Sovereign Okinec Ahau attacks, for each creature you control with power greater than that creature's base power, put a number of +1/+1 counters on that creature equal to the difference.",
+                "color_identity": [
+                  "G",
+                  "W"
+                ],
+                "scryfall_id": "a4b0bb52-f10f-4a13-bd3c-d9bf6091fd9b",
+                "prices": {
+                  "eur": 2.35,
+                  "eur_foil": 2.09
+                }
+              }
+            },
             "Brightglass Gearhulk": {
               "quantity": 1,
               "isFoil": true,
@@ -12549,36 +12548,37 @@
                 }
               }
             },
-            "Tempest Technique": {
-              "quantity": 1,
+            "Forest": {
+              "quantity": 13,
               "isFoil": false,
               "card": {
-                "name": "Tempest Technique",
-                "type_line": "Enchantment — Aura",
-                "oracle_text": "Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies. Copies become tokens.)\nEnchant creature you control\nEnchanted creature gets +1/+1 for each enchantment you control.",
+                "name": "Forest",
+                "type_line": "Basic Land — Forest",
+                "oracle_text": "({T}: Add {G}.)",
                 "color_identity": [
-                  "W"
+                  "G"
                 ],
-                "scryfall_id": "5d5ee7cc-4854-4b52-ba9b-64d5a401fca1",
+                "scryfall_id": "a4df3e89-610c-4f42-a93a-e694342307cc",
                 "prices": {
-                  "eur": 0.41
+                  "eur": 0.02,
+                  "eur_foil": 0.12
                 }
               }
             },
-            "Shalai, Voice of Plenty": {
-              "quantity": 1,
+            "Plains": {
+              "quantity": 11,
               "isFoil": false,
               "card": {
-                "name": "Shalai, Voice of Plenty",
-                "type_line": "Legendary Creature — Angel",
-                "oracle_text": "Flying\nYou, planeswalkers you control, and other creatures you control have hexproof.\n{4}{G}{G}: Put a +1/+1 counter on each creature you control.",
+                "name": "Plains",
+                "type_line": "Basic Land — Plains",
+                "oracle_text": "({T}: Add {W}.)",
                 "color_identity": [
-                  "G",
                   "W"
                 ],
-                "scryfall_id": "53876046-cdb8-4157-96cd-7832d3ad2549",
+                "scryfall_id": "8a299a1e-1ce9-4668-a5f5-c587081acf6b",
                 "prices": {
-                  "eur": 0.97
+                  "eur": 0.03,
+                  "eur_foil": 0.09
                 }
               }
             }
