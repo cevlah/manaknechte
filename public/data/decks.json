@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-04T19:47:41.625Z",
+  "updatedAt": "2026-04-05T05:58:21.509Z",
   "players": [
     {
       "name": "Andreas",
@@ -17180,6 +17180,53 @@
                 }
               }
             },
+            "Skinrender": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Skinrender",
+                "type_line": "Creature — Phyrexian Zombie",
+                "oracle_text": "When this creature enters, put three -1/-1 counters on target creature.",
+                "color_identity": [
+                  "B"
+                ],
+                "scryfall_id": "ca107d96-0351-49a9-9f65-b055c1514d7b",
+                "prices": {
+                  "eur": 0.12,
+                  "eur_foil": 0.11
+                }
+              }
+            },
+            "Contagion Engine": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Contagion Engine",
+                "type_line": "Artifact",
+                "oracle_text": "When this artifact enters, put a -1/-1 counter on each creature target player controls.\n{4}, {T}: Proliferate twice. (Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again.)",
+                "color_identity": [],
+                "scryfall_id": "fe584bf8-cb71-42b5-b5c0-dea3fec79c9d",
+                "prices": {
+                  "eur": 10.54,
+                  "eur_foil": 10.23
+                }
+              }
+            },
+            "Arcane Signet": {
+              "quantity": 1,
+              "isFoil": true,
+              "card": {
+                "name": "Arcane Signet",
+                "type_line": "Artifact",
+                "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+                "color_identity": [],
+                "scryfall_id": "049ca0ff-0ca4-44f7-b144-731cf453afa9",
+                "prices": {
+                  "eur": 0.51,
+                  "eur_foil": 0.28
+                }
+              }
+            },
             "Ammit Eternal": {
               "quantity": 1,
               "isFoil": false,
@@ -17509,23 +17556,6 @@
                 }
               }
             },
-            "Skinrender": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Skinrender",
-                "type_line": "Creature — Phyrexian Zombie",
-                "oracle_text": "When this creature enters, put three -1/-1 counters on target creature.",
-                "color_identity": [
-                  "B"
-                ],
-                "scryfall_id": "ca107d96-0351-49a9-9f65-b055c1514d7b",
-                "prices": {
-                  "eur": 0.12,
-                  "eur_foil": 0.11
-                }
-              }
-            },
             "Unnatural Restoration": {
               "quantity": 1,
               "isFoil": false,
@@ -17602,21 +17632,6 @@
                 "scryfall_id": "f5615c05-eb1e-4d27-a323-72d643d7c1d8",
                 "prices": {
                   "eur": 2.9
-                }
-              }
-            },
-            "Contagion Engine": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Contagion Engine",
-                "type_line": "Artifact",
-                "oracle_text": "When this artifact enters, put a -1/-1 counter on each creature target player controls.\n{4}, {T}: Proliferate twice. (Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again.)",
-                "color_identity": [],
-                "scryfall_id": "fe584bf8-cb71-42b5-b5c0-dea3fec79c9d",
-                "prices": {
-                  "eur": 10.54,
-                  "eur_foil": 10.23
                 }
               }
             },
@@ -18388,21 +18403,6 @@
                 "prices": {
                   "eur": 0.63,
                   "eur_foil": 1.41
-                }
-              }
-            },
-            "Arcane Signet": {
-              "quantity": 1,
-              "isFoil": true,
-              "card": {
-                "name": "Arcane Signet",
-                "type_line": "Artifact",
-                "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
-                "color_identity": [],
-                "scryfall_id": "049ca0ff-0ca4-44f7-b144-731cf453afa9",
-                "prices": {
-                  "eur": 0.51,
-                  "eur_foil": 0.28
                 }
               }
             },
